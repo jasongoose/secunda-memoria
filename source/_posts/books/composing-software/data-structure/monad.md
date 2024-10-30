@@ -4,7 +4,7 @@ date: 2024-10-29 22:12:14
 categories:
   - Books
   - Composing Software
-  - Data Structure
+  - 3. Data Structure
 #tags:
 ---
 Functor와 마찬가지로 타입 A에서 타입 B로 매핑하는 interface인데, 일반 map 연산이 아닌 flatMap 연산을 사용한다는 차이점이 있습니다.

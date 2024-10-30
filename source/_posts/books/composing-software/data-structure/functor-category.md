@@ -4,7 +4,7 @@ date: 2024-10-29 22:10:11
 categories:
   - Books
   - Composing Software
-  - Data Structure
+  - 3. Data Structure
 #tags:
 ---
 ## Functor

@@ -4,7 +4,7 @@ date: 2024-10-29 22:17:58
 categories:
   - Books
   - Composing Software
-  - Introduction
+  - 1. Introduction
 #tags:
 ---
 소프트웨어를 순수함수 단위로 구성하는 선언형 프로그래밍 기법입니다.

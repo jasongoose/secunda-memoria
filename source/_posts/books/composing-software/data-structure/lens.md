@@ -4,7 +4,7 @@ date: 2024-10-29 22:12:03
 categories:
   - Books
   - Composing Software
-  - Data Structure
+  - 3. Data Structure
 #tags:
 ---
 ## Lens란?

@@ -4,7 +4,7 @@ date: 2024-10-29 22:17:24
 categories:
   - Books
   - Composing Software
-  - Introduction
+  - 1. Introduction
 #tags:
 ---
 [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)

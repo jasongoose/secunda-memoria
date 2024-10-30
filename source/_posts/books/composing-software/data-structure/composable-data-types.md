@@ -4,7 +4,7 @@ date: 2024-10-29 22:11:44
 categories:
   - Books
   - Composing Software
-  - Data Structure
+  - 3. Data Structure
 #tags:
 ---
 JS에서 함수는 객체이므로 [Object Composition](../../concepts/object-composition)으로 함수에 속성이나 메서드를 추가할 수 있습니다.

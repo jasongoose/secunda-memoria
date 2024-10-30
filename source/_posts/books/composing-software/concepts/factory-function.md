@@ -4,7 +4,7 @@ date: 2024-10-28 08:42:28
 categories:
   - Books
   - Composing Software
-  - Concepts
+  - 2. Concepts
 #tags:
 ---
 `new` 키워드 없이 새로운 객체를 반환하는 함수로, 보통 OOP의 constructor의 대용으로 사용됩니다.

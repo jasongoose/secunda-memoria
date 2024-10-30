@@ -4,7 +4,7 @@ date: 2024-10-29 22:14:30
 categories:
   - Books
   - Composing Software
-  - Introduction
+  - 1. Introduction
 #tags:
 ---
 OOP(Object Oriented Programming)이라는 용어는 미국의 컴퓨터 과학자 Alan Kay의 1966~67년에 작성한 대학원 논문에서 처음 등장했습니다.

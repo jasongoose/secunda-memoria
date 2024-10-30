@@ -4,7 +4,7 @@ date: 2024-10-29 22:18:21
 categories:
   - Books
   - Composing Software
-  - Introduction
+  - 1. Introduction
 #tags:
 ---
 ## 왜냐하면...

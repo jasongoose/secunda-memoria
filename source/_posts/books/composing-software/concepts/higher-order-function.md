@@ -4,7 +4,7 @@ date: 2024-10-28 08:44:07
 categories:
   - Books
   - Composing Software
-  - Concepts
+  - 2. Concepts
 #tags:
 ---
 JS에서 함수는 일급객체라서 일반변수나 함수의 인자로 전달하거나 반환값으로 사용할 수 있습니다.
