@@ -17,13 +17,13 @@ Functor와 마찬가지로 타입 A에서 타입 B로 매핑하는 interface인�
 
 [Functor Context](../functor-category) 상에서 특정 Monad를 다른 Monad로 매핑합니다.
 
-![](monad_map.png)
+![Monad Map](/images/monad_map.png)
 
 ### flatten
 
 Functor 매핑으로 추가된 가장 외부의 Monad Context 하나를 제거합니다.
 
-![](monad_flatten.png)
+![Monad Flatten](/images/monad_flatten.png)
 
 여기서 Context란 Functor, Monad의 mapping 중 수행되는 연산들을 추상화하는(독립된 단위라서 사용자로부터 내부 구현을 은닉해도 되는) wrapper입니다.
 
@@ -46,9 +46,9 @@ flatMap에 들어가는 arrow는 functor(a ⇒ b)와는 다르게 type lifting �
 
 arrow들을 연속으로 합성하거나, 단일 arrow로부터 다수 arrow들을 분리하여 Monad를 계산할 수 있습니다.
 
-![](monad_composition_1.png)
+![Monad Composition 1](/images/monad_composition_1.png)
 
-![](monad_composition_2.png)
+![Monad Composition 2](/images/monad_composition_2.png)
 
 ```jsx
 f = a => M(b)

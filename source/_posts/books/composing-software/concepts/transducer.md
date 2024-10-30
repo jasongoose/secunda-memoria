@@ -39,7 +39,7 @@ transducer를 통해 입력으로부터 출력을 생성하는 과정은 마치 
 
 그래서 reducer의 입출력을 signal 또는 stream(시간에 따라 나타나는 일련의 값들)으로도 불립니다.
 
-![](transducer.png)
+![Transducer](/images/transducer.png)
 
 ## Implementation
 
