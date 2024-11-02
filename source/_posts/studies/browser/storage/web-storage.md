@@ -1,0 +1,72 @@
+---
+title: Web Storage
+date: 2024-11-02 00:08:10
+categories:
+  - Studies
+  - Browser
+  - Storage
+#tags:
+---
+cookie 이후 HTML5의 등장과 함께 소개된 기능으로, 사용자 정보를 클라이언트 단에 저장하기 위한 메서드와 프로토콜을 제공하는 API입니다.
+
+현재 웹 스토리지는 모든 브라우저에서 제공하는 표준사양입니다.
+
+2000년도 이전부터 20년 넘게 사용된 쿠키를 두고 굳이 웹 스토리지가 개발된 이유로는 2가지가 있습니다.
+
+#### 1. 더욱 커진 데이터 저장용량
+
+일반적인 쿠키의 최대용량은 약 4KB지만 웹 스토리지는 5MB까지도 가능하다.
+
+#### 2. 네트워크 대역폭 절약
+
+쿠키는 클라이언트가 서버로 HTTP 요청할 때마다 같이 전송되는 반면, 웹 스토리지에 저장된 데이터는 브라우저에서 유지되므로 매 요청마다 부가적인 데이터를 전송할 필요가 없습니다.
+
+## Local Storage
+
+persistent cookie와 비슷하게 브라우저를 삭제하거나 직접 제거하지 않는 이상, 창이나 탭을 닫아도 저장된 데이터가 삭제되지 않습니다.
+
+하나의 origin이 하나의 로컬 스토리지를 가지기 때문에 세션을 가로질러서 즉, 동일한 origin을 가진 탭이나 창들 사이에서 공유될 수 있다는 특징이 있습니다.
+
+key/value는 오직 `UTF-16` string 타입만 가능하기 때문에, reference 타입 데이터는 별도 `JSON.stringify()` + `JSON.parse()`가 추가적으로 적용되어야 합니다.
+
+로컬 스토리지는 장시간 동안 클라이언트 데이터를 저장할 수 있기 때문에 응용분야가 다양합니다.
+
+#### 1. caching
+
+웹을 통해서 확보하는데 시간이 걸리고 자주 변하지 않는 리소스(고화질 사진 같은)를 로컬 스토리지에 저장하여 나중에 재요청할 필요없이 꺼내 쓸 수 있습니다.
+
+#### 2. interface saving
+
+사용자가 다시 접속했을 때 사이트를 나가기 직전의 인터페이스를 계속해서 보여줄 수 있도록 로컬 스토리지에 인터페이스를 구성하는 HTML 태그의 innerHTML 데이터를 저장할 수 있습니다.
+
+## Session Storage
+
+클라이언트와 서버 사이의 세션이 유지되는 동안 존재하다가 세션이 종료되면 저장된 데이터가 제거됩니다.
+
+MDN 문서에 작성된 세션과 세션 스토리지의 관계는 다음과 같습니다.
+
+- 특정 origin을 가진 페이지를 탭에서 열면 고유의 세션이 생성되어 해당 탭에 부여된다.
+- 탭에서 페이지 새로고침이나 복구과정을 거쳐도 세션은 그대로 유지된다.
+- 세션이 부여된 탭이나 브라우저 자체를 닫으면 세션이 종료되고 세션 스토리지는 초기화 된다.
+- 동일한 origin을 가진 페이지라도 새로운 탭에서 열면 별개의 세션 스토리지가 부여된다.
+- 특정 페이지가 열린 탭을 복사하면 세션 스토리지 자체가 공유되지 않고 복사된다.
+
+key/value는 오직 `UTF-16` string 타입만 가능하기 때문에, reference 타입 데이터는 별도 `JSON.stringify()` + `JSON.parse()`가 추가적으로 적용되어야 합니다.
+
+세션 스토리지는 사이트의 로그인과 로그아웃을 관리할 때 유용합니다.
+
+사용자가 블로그에 접속하여 로그인을 하고 컨텐츠를 제공받는 동안에는 다른 창이나 탭에서는 해당 스토리지에 접근할 수 없기 때문에 세션을 지속적으로 유지할 수 있습니다.
+
+## 참고자료
+
+[Web Storage](https://en.wikipedia.org/wiki/Web_storage)
+
+[Cookie vs. localStorage](https://medium.com/swlh/cookies-vs-localstorage-whats-the-difference-d99f0eb09b44)
+
+[localStorage and how to use it](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
+
+[Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+[Window.sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+
+[Storage for the web](https://web.dev/i18n/en/storage-for-the-web/)
