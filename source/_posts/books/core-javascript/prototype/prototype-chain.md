@@ -47,7 +47,7 @@ Object.getPrototypeOf(iu).getName.call(iu); // '지금'
 
 `Object` 생성자의 prototype에는 어떤 종류의 생성자, prototype 객체, primitive Wrapper 등에서 사용할 수 있는 범용 메서드, 속성들이 위치합니다.
 
-하지만 오직 reference instance들만 사용할 수 있는 객체전용(object-only) 메서드나 속성들은 `Object` 생성자의 정적 메서드와 own-property에 위치합니다.
+하지만 오직 Reference instance들만 사용할 수 있는 객체전용(object-only) 메서드나 속성들은 `Object` 생성자의 정적 메서드와 own-property에 위치합니다.
 
 객체전용 기능들은 명시적 this binding이 아닌 대상 instance를 인자로 전달하는 방식으로 구현할 수 있습니다.
 

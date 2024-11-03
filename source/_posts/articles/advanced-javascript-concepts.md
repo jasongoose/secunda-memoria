@@ -41,7 +41,7 @@ const arr = [...(cond ? ["a"] : []), "b"];
 // ['b']
 ```
 
-## Reference for non-primitive value
+## reference for non-primitive value
 
 JS 코어 개념들을 익히면서 가끔씩 헷갈렸던 부분이 있었습니다.
 
