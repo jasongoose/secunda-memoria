@@ -26,7 +26,7 @@ HTTP/2는 socket API와 프로세스 사이에 Binary Framing Layer를 추가하
 
 ### stream
 
-생성된 TCP connection 사이에서 여러 메시지를 지닌 양방향성 byte flow입니다.
+생성된 TCP Connection 사이에서 여러 메시지를 지닌 양방향성 byte flow입니다.
 
 > 양방향성 - 임의의 시점에 가능한 방향이 2가지란 의미
 
@@ -44,9 +44,9 @@ HTTP/2 통신에서 최소 단위로, header(HTTP header x)에 자신이 속한 
 
 header가 body에 비해 용량이 큰 overhead로 불필요한 트래픽이 발생할 수 있고, 단일 connection 내의 타입별 메시지들 사이에서 헤더의 중복이 빈번히 발생합니다.
 
-#### 2. 단일 TCP connection에서 multiplexing이 불가합니다.
+#### 2. 단일 TCP Connection에서 Multiplexing이 불가합니다.
 
-로딩 지연을 줄이는 동시성을 구현하려면 *다수의 TCP connection들*이 필요합니다.
+로딩 지연을 줄이는 동시성을 구현하려면 *다수의 TCP Connection들*이 필요합니다.
 
 #### 3. 요청한 리소스들 사이의 우선순위를 부여할 수 없습니다.
 
@@ -59,20 +59,20 @@ TCP 세그먼트의 제어 비트값을 이용하여 특정 stream은 별다른 
 그래서 위 문제들을 아래와 같이 해결할 수 있습니다.
 
 1. stream들을 생성하면서 header와 body는 분리되기 때문에 별도로 압축이 가능합니다.
-2. 다수의 stream들을 결합할 수 있기 때문에 단일 TCP connection에서 multiplexing을 구현할 수 있습니다.
+2. 다수의 stream들을 결합할 수 있기 때문에 단일 TCP Connection에서 Multiplexing을 구현할 수 있습니다.
 
 ## Request and response multiplexing
 
 ![Multiplexing](/images/multiplexing.png)
 
-HTTP/2에서는 stream간의 frame 단위 결합과 재조립으로 multiplexing을 구현합니다.
+HTTP/2에서는 stream간의 frame 단위 결합과 재조립으로 Multiplexing을 구현합니다.
 
-전송할 HTTP 메시지들을 _single Persistent TCP connection_ 내에서 결합된 stream으로 주고받는 로직은 다음과 같은 장점을 가집니다.
+전송할 HTTP 메시지들을 _single Persistent TCP Connection_ 내에서 결합된 stream으로 주고받는 로직은 다음과 같은 장점을 가집니다.
 
 - 여러 개의 request/response를 병렬적으로 전송해도 어느 하나도 block되지 않아서 HOL blocking 해결한다.
 - 불필요한 네트워크 지연이 없고 가용 대역폭를 최대한 활용할 수 있다.
 
-또한 Persistent TCP connection을 전제로 하기 때문에 여러 개의 HTTP request, response stream들을 주고받을 수 있음을 알 수 있습니다.
+또한 Persistent TCP Connection을 전제로 하기 때문에 여러 개의 HTTP request, response stream들을 주고받을 수 있음을 알 수 있습니다.
 
 ## Stream Prioritization
 
@@ -91,11 +91,11 @@ HTTP/2에서는 리소스의 우선순위를 반영하여 stream들 사이의 �
 
 ## One connection per origin
 
-HTTP/2 stream은 frame 단위로 결합 및 재조립이 가능하기 때문에 단일 Persistent TCP connection 상에서 multiplexing을 구현할 수 있습니다.
+HTTP/2 stream은 frame 단위로 결합 및 재조립이 가능하기 때문에 단일 Persistent TCP Connection 상에서 Multiplexing을 구현할 수 있습니다.
 
-이는 여러 개의 TCP connection 상에서 요청들을 처리할 필요가 없어지므로 client, server, 중간 proxy들의 연산량이 감소하고 기존 HTTP 메시지를 압축하여 네트워크 대역폭을 절약할 수 있는 효과가 있습니다.
+이는 여러 개의 TCP Connection 상에서 요청들을 처리할 필요가 없어지므로 client, server, 중간 proxy들의 연산량이 감소하고 기존 HTTP 메시지를 압축하여 네트워크 대역폭을 절약할 수 있는 효과가 있습니다.
 
-여기서 TCP connection은 origin 당 하나씩 생성됩니다.
+여기서 TCP Connection은 origin 당 하나씩 생성됩니다.
 
 ## 참고자료
 
