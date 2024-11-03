@@ -31,9 +31,9 @@ ECMA-262에 의해서 정의된 범용 목적의 스크립트 언어입니다.
 
 실제 ECMA International에서 ECMA-262 문서를 보면 데이터 타입의 종류, 함수를 정의하는 방법, 클래스를 정의하는 방법 등이 매우 체계적이고 자세하게 설명되어 있습니다.
 
-1997년에 초판된 이후로 시간이 지나면서 다양한 버전으로 수정되었고 ECMAScript를 준수하는 언어들로는 Javascript, 마이크로소프트의 JScript, Macromedia의 Actionscript 등이 있습니다.
+1997년에 초판된 이후로 시간이 지나면서 다양한 버전으로 수정되었고 ECMAScript를 준수하는 언어들로는 JavaScript, 마이크로소프트의 JScript, Macromedia의 Actionscript 등이 있습니다.
 
-## Javascript
+## JavaScript
 
 ECMAScript 명세를 준수하는 수많은 스크립트 언어들 중에 하나입니다.
 
@@ -47,13 +47,13 @@ ECMAScript에는 없는 입출력 관련 기능이 구현되어 있고 다음과
 
 웹 개발 분야 중 HTML, CSS와 함께 웹 클라이언트 쪽에서 무조건 사용되고 Node.js가 등장하면서 서버 사이드 소프트웨어나 임베디드 시스템 분야에서도 활용됩니다.
 
-역사적으로 보면 Javascript라는 언어가 ECMA International에 제출되었던 해가 1996년이고 그 뒤에 1997년에 첫 번째 ECMA-262 표준문서가 출판되었습니다.
+역사적으로 보면 JavaScript라는 언어가 ECMA International에 제출되었던 해가 1996년이고 그 뒤에 1997년에 첫 번째 ECMA-262 표준문서가 출판되었습니다.
 
 어찌 보면 JavaScript와 ECMAScript는 거의 동일하다고 볼 수도 있는데 이 때부터 용어가 혼용되기 시작한 것으로 보입니다.
 
-## Javascript Engine
+## JavaScript Engine
 
-자동차가 움직이기 위해서는 엔진이 필요하듯이 JS로 작성한 코드를 이해하고 파싱하는 프로그램을 Javascript Engine이라고 합니다.
+자동차가 움직이기 위해서는 엔진이 필요하듯이 JS로 작성한 코드를 이해하고 파싱하는 프로그램을 JavaScript Engine이라고 합니다.
 
 대표적으로 Chrome의 V8, Firefox의 SpiderMonkey, Edge의 Chakra 등이 있습니다.
 
@@ -61,7 +61,7 @@ ECMAScript에는 없는 입출력 관련 기능이 구현되어 있고 다음과
 
 ECMAScript의 새로운 버전이 나왔을 때, 브라우저의 JS 엔진을 업데이트할지 여부는 오로지 JS 엔진을 개발한 회사에서 결정합니다.
 
-## Javascript Runtime
+## JavaScript Runtime
 
 JS 엔진에 의해서 코드를 실행하여 입출력의 결과를 확인할 수 있는 환경이나 시스템을 가리킵니다.
 
@@ -79,13 +79,13 @@ scripting 언어로 작성한 코드를 실행하면 interpreter에 의해서 �
 
 그래서 결과를 확인하기 위해서는 특정 주체가 이 파일을 실행해야 합니다.
 
-C언어로 계산기 프로그램을 만들어도 누군가 실행하지 않는 한 사용할 수 없지만 (Javascript + HTML + CSS)로 만든 계산기는 브라우저에서 컴파일 과정없이 바로 실행할 수 있습니다.
+C언어로 계산기 프로그램을 만들어도 누군가 실행하지 않는 한 사용할 수 없지만 (JavaScript + HTML + CSS)로 만든 계산기는 브라우저에서 컴파일 과정없이 바로 실행할 수 있습니다.
 
 또한 Web API의 `addEventListener` 메서드를 이용하면 사용자에 의해서 특정 이벤트가 일어날 때마다 이벤트 핸들러(event handler)를 자동으로 실행시킬 수 있습니다.
 
 '자동화'라는 단어만 보면 뭔가 스크립트 언어가 컴파일 언어보다 더 낫다고 생각할 수도 있지만 실행속도 면에서 보면 컴파일 언어에 비해서 느리고 실행환경에 종속적이라는 단점이 있습니다.
 
-현재 사용되는 스크립트 언어로는 Javascript, JSP, PHP, Python, Bash 등이 있습니다.
+현재 사용되는 스크립트 언어로는 JavaScript, JSP, PHP, Python, Bash 등이 있습니다.
 
 ## 참고자료
 
@@ -93,6 +93,6 @@ C언어로 계산기 프로그램을 만들어도 누군가 실행하지 않는 
 
 [What is the difference between Javastript and ECMAScript?](https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/)
 
-[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 [Scripting Language](https://en.wikipedia.org/wiki/Scripting_language)
