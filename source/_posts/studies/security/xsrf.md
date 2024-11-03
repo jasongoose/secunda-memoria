@@ -1,0 +1,75 @@
+---
+title: XSRF
+date: 2024-11-03 18:49:31
+categories:
+  - Studies
+  - Security
+#tags:
+---
+## XSRF란?
+
+Cross Site Request Forgery의 약자로, 특정 서버가 클라이언트를 신뢰하는 상태를 노린 공격입니다.
+
+![XSRF](/images/xsrf.png)
+
+서버가 요청주체가 인증된 사용자인지, 인증되지도 않은 공격자인지를 구별하지 못하는 웹 취약점이 주원인입니다.
+
+로그인을 통해 서버와의 세션이 활성화된 상태이면 브라우저는 사용자 관련 정보를 쿠키에 저장합니다.
+
+이 때 공격자는 쿠키에 접근하여 희생자로 하여금 동일 사이트로 위조요청을 전송하도록 유도할 수 있습니다.
+
+위조요청 URL은 `<img />`에 `src` attribute 값이나 이메일의 첨부된 링크주소를 통해 전달할 수 있습니다.
+
+## XSRF 예방하기
+
+XSRF 공격은 백엔드 단에서 유효한 API 요청인지를 확인하여 대응해야 합니다.
+
+세션정보(쿠키나 토큰)를 기반으로 위조된 요청을 전송하는 방식이므로, 허용된 origin을 가진 페이지들 사이에서만 세션정보를 주고받도록 제한하면 문제를 해결할 수 있습니다.
+
+### Set-Cookie 헤더의 SameSite 속성 확인
+
+인증과정을 거친 뒤에 전송되는 응답 메시지의 `Set-Cookie` 헤더에 `SameSite` 속성을 지정하면 특정 사이트로만 쿠키를 전송할 수 있습니다.
+
+#### Lax(default)
+
+`<a href>`, `<link href>`, `<form method>` 사용하여 cross-origin 서버로 쿠키를 전송할 수 있습니다.
+
+#### Strict
+
+오직 동일한 origin을 가진 서버로만 쿠키를 전송할 수 있습니다.
+
+#### None
+
+어디로든 쿠키를 전송할 수 있는데, 응답 메시지의 `Set-Cookie` 헤더의 Secure 속성이 반드시 포함되어야 합니다.
+
+### 요청 헤더의 Referer 속성 확인
+
+요청 메시지의 `Referer` 헤더에는 요청한 사이트의 URL이 담기는데 서버에서 이 URL을 확인하여 유효한 요청인지 여부를 확인합니다.
+
+### CORS 헤더 지정
+
+HTTP 응답 메시지에 담길 `Access-Control-Allow-Origin`에 허용할 origin 값을 구체적으로 명시합니다.
+
+### XSRF token 사용
+
+세션마다 생성되는 토큰으로 고유하고 예측이 어렵고 크기가 큰 난수입니다.
+
+#### 동작원리
+
+1. 사용자가 인증하는 과정에서 서버는 클라이언트로 쿠키와 함께 xsrf 토큰 복사본을 전송하는 동시에 서버 로컬에 원본 토큰을 저장합니다.
+2. 클라이언트가 서버로 요청할 때마다 이 토큰을 HTML form의 hidden input으로서 같이 전달하면 서버에서는 클라이언트에서 전송한 토큰의 값과 원본을 비교합니다.
+3. 두 값이 일치하면 요청을 처리하고 일치하지 않으면 요청을 폐기합니다.
+
+아무리 `<input type="hidden" value="" />`을 사용해도 개발자 도구로는 보이기 때문에 완전히 의존해서는 안됩니다.
+
+## 참고자료
+
+[XSS, XSRF](https://beomy.github.io/tech/etc/xss-xsrf/)
+
+[Types of attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks)
+
+[CSRF-Cross Site Request Forgery](https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/)
+
+[What is CSRF?](https://www.synopsys.com/glossary/what-is-csrf.html)
+
+[Bypassing token validation](https://portswigger.net/web-security/csrf/bypassing-token-validation)
