@@ -151,9 +151,3 @@ var Direction;
 })(Direction || (Direction = {}));
 Try;
 ```
-
-## 참고자료
-
-[Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
-
-[How to use TypeScript Enums and why not to, maybe](https://www.youtube.com/watch?v=pWPClHdcvVg)

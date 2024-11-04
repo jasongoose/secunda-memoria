@@ -254,7 +254,3 @@ src
          └── views
              └── template1.ts (can import "./view1", "./view2")
 ```
-
-## 참고자료
-
-[Modules](https://www.typescriptlang.org/docs/handbook/modules.html)

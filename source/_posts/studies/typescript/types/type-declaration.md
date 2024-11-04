@@ -381,11 +381,3 @@ console.log("isAgeEven", isAgeEven);
 // (make a module)
 export {};
 ```
-
-## 참고자료
-
-[About "\*.d.ts" in TypeScript](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
-
-[What is the difference between _.d.ts vs _.ts in typescript?](https://stackoverflow.com/questions/29196657/what-is-the-difference-between-d-ts-vs-ts-in-typescript)
-
-[Modules .d.ts](https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html)

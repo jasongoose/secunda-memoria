@@ -50,7 +50,3 @@ const p = new Person("Ross", "Geller");
 
 tsconfig.json의 필드 지정으로 `import`문 없이 외부에서 export된 type을 사용할 수도 있습니다.
 
-## 참고자료
-
-[A quick introduction to “Type Declaration” files and adding type support to your JavaScript packages](https://medium.com/jspoint/typescript-type-declaration-files-4b29077c43)
-

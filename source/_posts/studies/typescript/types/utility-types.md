@@ -210,9 +210,3 @@ type Y = a extends `${infer F}${infer R}` ? R : a; // type bb = 'bcdefg'
 ```ts
 type E = "" extends `${infer H}${infer R}` ? true : false; // false
 ```
-
-## 참고자료
-
-[Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html)
-
-[Template Literal Types로 타입 안전하게 코딩하기](https://toss.tech/article/template-literal-types)

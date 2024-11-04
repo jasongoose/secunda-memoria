@@ -201,9 +201,3 @@ type alias를 사용하면 약간의 리팩토링도 가능합니다.
 type key = "age";
 type Age = Person[key];
 ```
-
-## 참고자료
-
-[Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
-
-[Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)

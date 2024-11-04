@@ -44,9 +44,3 @@ let y = [10, 20] as const;
 // Type '{ readonly text: "hello" }'
 let z = { text: "hello" } as const;
 ```
-
-## 참고자료
-
-[Non-null Assertion Operator](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-)
-
-[const assertion](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions)

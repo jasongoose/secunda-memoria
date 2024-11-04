@@ -147,9 +147,3 @@ type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
 
 type StrArrOrNumArr = ToArrayNonDist<string | number>; // (string | number)[]
 ```
-
-## 참고자료
-
-[Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
-
-[Type Inference In Conditional Types](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types)

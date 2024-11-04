@@ -305,7 +305,3 @@ var ross = MyLibA.getPerson("Ross Geller", 30);
 namespace + reference directive + bundling을 이용하면 ESM을 지원하지 않는 오래된 브라우저에서도 실행되는 앱을 만들 수 있습니다.
 
 TS에서는 ESM, CommonJS module들의 bundling이 불가능하지만 browserify, webpack, vite와 같은 번들러 도구를 사용하면 bundling을 가능하게 하여 cross-platform + backward compatible한 앱을 충분히 만들 수 있습니다.
-
-## 참고자료
-
-[Employing “Namespaces” in TypeScript to encapsulate your data](https://medium.com/jspoint/typescript-namespaces-f43cd002c08c)

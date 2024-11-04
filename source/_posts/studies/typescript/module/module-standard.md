@@ -174,7 +174,3 @@ import { P, Q, values2 } from "path/to/lib";
 export { default } from "path/to/values-1";
 export { default as Apple } from "path/to/values-2";
 ```
-
-## 참고자료
-
-[Modules](https://www.typescriptlang.org/docs/handbook/modules.html)

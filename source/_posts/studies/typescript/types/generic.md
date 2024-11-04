@@ -58,9 +58,3 @@ let x = { a: 1, b: 2, c: 3, d: 4 };
 getProperty(x, "a");
 getProperty(x, "m");
 ```
-
-## 참고자료
-
-[TypeScript: 제네릭(Generic)](https://hyunseob.github.io/2017/01/14/typescript-generic/)
-
-[Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)

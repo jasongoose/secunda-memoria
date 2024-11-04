@@ -57,7 +57,3 @@ proxy!.$axios
   .then((response) => response.data)
   .then((json) => console.log(json));
 ```
-
-## 참고자료
-
-[Purpose of declare keyword in typescript](https://javascript.plainenglish.io/purpose-of-declare-keyword-in-typescript-8431d9db2b10)

@@ -87,7 +87,3 @@ import data from "json!http://example.com/data.json";
 
 console.log(data, fileContent);
 ```
-
-## 참고자료
-
-[A comprehensive guide to “Module System” in TypeScript (with examples)](https://medium.com/jspoint/typescript-module-system-5022cac310f6)
