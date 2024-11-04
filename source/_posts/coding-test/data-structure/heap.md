@@ -99,7 +99,3 @@ const heap = (cmpFn) => {
 const { ... } = heap((a, b) => a < b); // min-heap
 const { ... } = heap((a, b) => a > b); // max-heap
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

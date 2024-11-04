@@ -136,9 +136,3 @@ const combination = (arr, r) => {
 길이가 n인 배열에서 유한개의 요소들을 선택하는 것은 `[0, 2^n)`를 순회하면서 비트셋을 해석하는 방식으로도 해결할 수 있습니다.
 
 비트연산 자체는 속도는 빠르지만 시간복잡도는 `O(2^N)`를 가진다는 단점은 있습니다.
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)
-
-[순열(Permutation)과 조합(Combination) 알고리즘](https://aerocode.net/376)

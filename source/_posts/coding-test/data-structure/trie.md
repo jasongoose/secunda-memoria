@@ -52,7 +52,3 @@ const trie = () => {
   };
 };
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

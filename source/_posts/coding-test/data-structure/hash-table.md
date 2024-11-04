@@ -57,7 +57,3 @@ m.set(key, [...(m.get(key) ?? DEFALUT_VALUE), n]);
 
 m.set(key, (m.get(key) ?? new Set()).add(n));
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

@@ -75,7 +75,3 @@ const kruskal = (n, costs) => {
   return ans;
 };
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

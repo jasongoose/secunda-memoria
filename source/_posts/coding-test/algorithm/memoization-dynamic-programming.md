@@ -188,7 +188,3 @@ for (let mid = 0; mid < n; mid++) {
 ```
 
 3중 for문을 수행하므로 전체 시간복잡도는 `O(N ^ 3)`을 가집니다.
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

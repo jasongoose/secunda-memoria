@@ -139,7 +139,3 @@ while (q.length) {
 
 return -1;
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

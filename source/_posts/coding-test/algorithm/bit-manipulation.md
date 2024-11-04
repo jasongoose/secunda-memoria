@@ -44,7 +44,3 @@ const setNthBit = (x, n) => x | (1 << n);
 
 const clearNthBit = (x, n) => x & ~(1 << n);
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

@@ -31,7 +31,3 @@ const getLcm = (x, y) => {
   return (x * y) / getGcd(x, y);
 };
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

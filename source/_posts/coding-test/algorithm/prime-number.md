@@ -29,7 +29,3 @@ const era = (n) => {
 ```
 
 정말 가끔식은 `n`보다 작은 수들로 일일이 나누면서 소수인지 여부를 확인하는 로직이 필요합니다.
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

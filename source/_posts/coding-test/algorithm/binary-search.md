@@ -66,7 +66,3 @@ const binarySearch = (data, x) => {
 ```js
 const mid = Math.floor(left + (right - left) / 2);
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

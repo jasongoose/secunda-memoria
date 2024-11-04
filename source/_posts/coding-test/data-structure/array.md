@@ -88,8 +88,3 @@ const isAnagram = (s1, s2) => {
 ```js
 'abc' => ['a', 'b', 'c', 'ab', 'bc', 'ac', 'abc']
 ```
-
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)

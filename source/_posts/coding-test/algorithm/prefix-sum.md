@@ -58,7 +58,3 @@ const x = 4;
 // 이제 index 0부터 index x까지 차레대로 더해서 누적합을 구합니다.
 console.log(acc.slice(0, x + 1).reduce((acc, curr) => acc + curr));
 ```
-
-## 참고자료
-
-[HackerRank](https://www.youtube.com/@HackerrankOfficial/playlists)
