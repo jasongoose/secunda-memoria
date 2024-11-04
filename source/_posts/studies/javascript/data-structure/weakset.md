@@ -44,7 +44,3 @@ const foo = {
 foo.bar.baz = foo; // Circular reference!
 execRecursively((obj) => console.log(obj), foo);
 ```
-
-## 참고자료
-
-[WeakSet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)

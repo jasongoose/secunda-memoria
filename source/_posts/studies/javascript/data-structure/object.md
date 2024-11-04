@@ -134,11 +134,3 @@ JS 객체를 네트워크를 통해 전송하거나 브라우저 스토리지 �
 여기서 직렬화된 객체는 다시 원상복구가 되어야 합니다.
 
 보통 `JSON.stringify` 메서드로 객체를 문자열 형식으로 바꾸고, 다시 복원할 때는 `JSON.parse` 메서드를 사용합니다.
-
-## 참고자료
-
-[Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-
-[Object.getOwnPropertyNames](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
-
-[Object.getOwnPropertySymbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols)

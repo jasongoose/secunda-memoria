@@ -44,7 +44,3 @@ console.log(weakMap.getValueOf(obj2)); // Symbol()
 
 - `O(N)` 의 시간복잡도를 가져서 단일 value를 탐색하는데 key의 개수가 늘어날수록 복잡도가 올라갑니다.
 - 배열로 저장된 요소들은 garbage collect 대상이 아니기 때문에 key 객체가 다른 영역에서 거의 사용되지 않아도 계속 메모리의 공간을 차지하여 메모리 누수가 발생할 수 있습니다.
-
-## 참고자료
-
-[WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)

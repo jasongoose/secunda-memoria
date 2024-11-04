@@ -109,19 +109,3 @@ g.next(2);
 만일 특정 값을 return한다면 `done` property가 `true`인 객체를 반환하고 종료합니다.
 
 Generator가 순회를 종료할 때는 `{done: true, value: undefined}`를 반환합니다.
-
-## 참고자료
-
-[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
-
-[Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
-
-[function\*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
-
-[for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-
-[for-of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
-
-[for-in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-
-[for-await-of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)

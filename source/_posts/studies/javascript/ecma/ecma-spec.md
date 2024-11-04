@@ -86,13 +86,3 @@ C언어로 계산기 프로그램을 만들어도 누군가 실행하지 않는 
 '자동화'라는 단어만 보면 뭔가 스크립트 언어가 컴파일 언어보다 더 낫다고 생각할 수도 있지만 실행속도 면에서 보면 컴파일 언어에 비해서 느리고 실행환경에 종속적이라는 단점이 있습니다.
 
 현재 사용되는 스크립트 언어로는 JavaScript, JSP, PHP, Python, Bash 등이 있습니다.
-
-## 참고자료
-
-[ECMA-262](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-
-[What is the difference between Javastript and ECMAScript?](https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/)
-
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-
-[Scripting Language](https://en.wikipedia.org/wiki/Scripting_language)

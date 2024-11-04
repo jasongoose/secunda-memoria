@@ -96,9 +96,3 @@ console.log(JSON.stringify(obj)); // {}
 ```
 
 사실 중복을 방지하기 위해서 uuid와 같이 timestamp에 기반한 128bit 값을 이용하거나 namespace를 사용할 수는 있지만 머리가 비상한 사용자에 의해서 중복이 발생할 수학적 확률이 다분합니다.
-
-## 참고자료
-
-[Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
-
-[JavaScript Symbols: But Why?](https://medium.com/intrinsic-blog/javascript-symbols-but-why-6b02768f4a5c)

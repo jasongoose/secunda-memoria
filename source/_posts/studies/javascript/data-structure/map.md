@@ -79,7 +79,3 @@ console.log(merged.get(1)); // uno
 console.log(merged.get(2)); // dos
 console.log(merged.get(3)); // three
 ```
-
-## 참고자료
-
-[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)

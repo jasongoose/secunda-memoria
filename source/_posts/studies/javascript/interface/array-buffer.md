@@ -16,7 +16,3 @@ categories:
 오직 한번에 하나의 스레드 즉, 단일 context 상에서만 리소스를 참조할 수 있으므로 다른 스레드로 전달된 이후에는 전달 전의 context 상에서 해당 데이터를 참조할 수 없습니다.
 
 기존 context에서 detach된 데이터는 전달 이후 context 상의 `ArrayBuffer` 공간에 attach됩니다.
-
-## 참고자료
-
-[ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)

@@ -73,11 +73,3 @@ data:[<mediatype>][;base64],<data>
 5. 위 표를 참조하여 수에 대응되는 문자들을 조합하여 문자열을 만든다. ⇒ TWFu
 
 Base64 encoding 방식은 기존 데이터에 bit들을 추가하기 때문에 약 33%의 오버헤드가 발생한다는 특징이 있습니다.
-
-## 참고자료
-
-[Data URLs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs)
-
-[Base64](https://developer.mozilla.org/en-US/docs/Glossary/Base64)
-
-[Encoding Base64](https://developercookie.wordpress.com/2019/12/29/encoding-base-64/)

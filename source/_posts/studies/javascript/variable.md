@@ -51,11 +51,3 @@ block scope 내에서 hoisting으로 최상단에 변수 선언만 일어납니�
 
 1. 변수를 선언하면서 대입연산자로 할당하여 초기화시켜야 합니다.
 2. 선언문 이후로 할당이 불가합니다.
-
-## 참고자료
-
-[📜 var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
-
-[📜 let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-
-[📜 const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)

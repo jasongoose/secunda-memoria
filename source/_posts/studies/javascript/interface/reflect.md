@@ -151,11 +151,3 @@ proxy.logger = 1;
 proxy.log; // [1]
 // ...
 ```
-
-## 참고자료
-
-[Reflect](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
-
-[What does the Reflect object do in Javascript?](https://stackoverflow.com/questions/25421903/what-does-the-reflect-object-do-in-javascript)
-
-[What is a receiver in Javascript?](https://stackoverflow.com/questions/37563495/what-is-a-receiver-in-javascript)

@@ -175,9 +175,3 @@ arr.length = 4;
 console.log(arr); // [1, 2, empty * 2] -> empty slot 2개 추가
 console.log(arr[4]); // undefined
 ```
-
-## 참고자료
-
-[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
-
-[How to check if an array is empty or exists?](https://stackoverflow.com/questions/11743392/how-to-check-if-an-array-is-empty-or-exists)

@@ -309,7 +309,3 @@ function baz() {
   function eit() {} // also kosher
 }
 ```
-
-## 참고자료
-
-[Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)

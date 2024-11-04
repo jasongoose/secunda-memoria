@@ -24,7 +24,3 @@ console.log(dogName);
 console.log(adventurer.someNonExistentMethod?.());
 // Expected output: undefined
 ```
-
-## 참고자료
-
-[Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)

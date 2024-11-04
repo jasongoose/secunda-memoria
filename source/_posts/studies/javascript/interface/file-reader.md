@@ -15,7 +15,3 @@ categories:
 - `.readAsBinaryString` : binary 데이터를 가진 `String`
 - `.readAsDataUrl` : file 데이터를 참조하는 `data: URL`
 - `.readAsText` : file 내용을 표현한 `String`
-
-## 참고자료
-
-[FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)

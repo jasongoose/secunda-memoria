@@ -105,7 +105,3 @@ proxy.current = "EN"; // proxy
 const inherited = Object.create(proxy);
 inherited.current = "hello"; // inherited
 ```
-
-## 참고자료
-
-[Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)

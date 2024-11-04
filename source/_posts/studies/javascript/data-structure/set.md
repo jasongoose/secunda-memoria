@@ -113,7 +113,3 @@ const array = Array.from(document.querySelectorAll("[id]")).map((e) => e.id);
 const set = new Set(array);
 console.assert(set.size == array.length);
 ```
-
-## 참고자료
-
-[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)

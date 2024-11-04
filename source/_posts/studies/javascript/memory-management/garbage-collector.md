@@ -50,11 +50,3 @@ JS 엔진은 코드를 실행하면서부터 끊임없이 root로부터 참조�
 먼저 GC가 가능한 root들의 정보를 모으고 각 root를 표시한 뒤, 각 root로부터 도달가능하고 아직 방문하지 않은 모든 객체들을 방문하여 표시하는 과정을 계속 반복합니다.
 
 최종적으로 방문하지 않은 객체들의 메모리 공간은 이제 회수됩니다.
-
-## 참고자료
-
-[Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
-
-[가비지 컬렉션](https://ko.javascript.info/garbage-collection)
-
-[Feature Preview: Incremental Garbage Collection](https://blog.unity.com/technology/feature-preview-incremental-garbage-collection)
