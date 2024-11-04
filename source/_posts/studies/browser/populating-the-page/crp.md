@@ -127,7 +127,3 @@ CRP 최적화의 목적은 <ins>요청한 페이지의 컨텐츠를 최대한 �
 - 중요한 리소스들의 다운로드를 미루거나(defer, lazy loading) 비동기적으로 처리하여 초기에 load할 리소스의 양을 줄인다.
 - 요청할 리소스들의 개수 또는 개별 리소스의 크기를 줄인다.
 - 필요한 asset들의 다운로드 우선순위를 정한다.
-
-## 참고자료
-
-[Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path)

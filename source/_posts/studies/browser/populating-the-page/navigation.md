@@ -36,7 +36,3 @@ DNS Lookup으로 목적지 서버 IP를 알아내면 브라우저와 웹 서버 
 TCP HandShake를 거쳐서 connection을 생성한 뒤, 통신에 적용할 암호화 방식 및 인증수단을 정하는 HandShake를 거쳐야 합니다.
 
 이 HandShake는 [TLS 프로토콜(구 SSL)](https://developer.mozilla.org/en-US/docs/Glossary/TLS)을 따르는데, 해당 프로토콜은 Internet Protocol Suite에서 최상위 Application Layer에 위치하거나 HTTPS 프로토콜의 Security Layer에 위치합니다.
-
-## 참고자료
-
-[Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)

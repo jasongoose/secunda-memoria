@@ -56,17 +56,3 @@ key/value는 오직 `UTF-16` string 타입만 가능하기 때문에, reference 
 세션 스토리지는 사이트의 로그인과 로그아웃을 관리할 때 유용합니다.
 
 사용자가 블로그에 접속하여 로그인을 하고 컨텐츠를 제공받는 동안에는 다른 창이나 탭에서는 해당 스토리지에 접근할 수 없기 때문에 세션을 지속적으로 유지할 수 있습니다.
-
-## 참고자료
-
-[Web Storage](https://en.wikipedia.org/wiki/Web_storage)
-
-[Cookie vs. localStorage](https://medium.com/swlh/cookies-vs-localstorage-whats-the-difference-d99f0eb09b44)
-
-[localStorage and how to use it](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
-
-[Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-
-[Window.sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
-
-[Storage for the web](https://web.dev/i18n/en/storage-for-the-web/)

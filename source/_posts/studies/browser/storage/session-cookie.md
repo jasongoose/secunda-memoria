@@ -128,11 +128,3 @@ First/Third-party Cookie 허용여부는 브라우저 설정으로 제어할 수
 만일 Third-party Cookie를 사용하고 싶지 않으면 VPN을 사용하여 내 기기 대신 다른 원격서버에 쿠키를 저장할 수도 있습니다.
 
 ![Third-party Cookie](/images/third_party_cookie.png)
-
-## 참고자료
-
-[HTTP Session Management](https://mytechblogs.medium.com/http-session-management-javaee-b648eb4edc1e)
-
-[Web - 쿠키와 세션의 차이, 용도, 사용법](https://jeong-pro.tistory.com/80)
-
-[HTTP Only와 Secure Cookie 이해하기](https://nsinc.tistory.com/121)

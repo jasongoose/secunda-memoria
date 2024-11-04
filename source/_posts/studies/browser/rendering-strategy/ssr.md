@@ -20,9 +20,3 @@ categories:
 
 - 매번 페이지를 요청할 때마다 refresh가 필요하므로 UX가 떨어집니다.
 - 요청 빈도 수가 높아서 트래픽과 서버 부하가 증가합니다.
-
-## 참고자료
-
-[📜 CSR-SSR](https://velog.io/@namezin/CSR-SSR)
-
-[📜 CSR vs. SSR](https://dev.to/jeremypanjaitan/ssr-vs-csr-2617)

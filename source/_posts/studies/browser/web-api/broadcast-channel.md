@@ -49,9 +49,3 @@ bc.onmessage = (event) => {
 // Disconnect the channel
 bc.close();
 ```
-
-## 참고자료
-
-[Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
-
-[Browsing Context](https://developer.mozilla.org/en-US/docs/Glossary/Browsing_context)

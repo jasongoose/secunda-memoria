@@ -78,11 +78,3 @@ event가 처음으로 발생한 DOM 객체입니다.
 동일한 node에 동일한 event에 대한 event listener들을 여러 개 추가한다면 등록된 순서대로 호출됩니다.
 
 중간에 특정 listener에서 `stopImmediatePropagation` 메서드를 호출하면 그 뒤에 등록된 listener들은 실행되지 않습니다.
-
-## 참고자료
-
-[버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
-
-[이벤트 버블링, 이벤트 캡처 그리고 이벤트 위임까지](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/)
-
-[stopPropagation vs stopImmediatePropagation 제대로 이해하기](https://medium.com/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/stoppropagation-vs-stopimmediatepropagation-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-75edaaed7841)

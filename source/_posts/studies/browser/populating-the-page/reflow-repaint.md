@@ -38,7 +38,3 @@ Reflow를 줄이기 위한 방법들은 아래 링크를 통해 확인할 수 �
 화면을 구성하는 node의 layout을 제외한 시각적인 스타일(`background-color`, `outline`, `visibility` 등)에 변화가 생겼을 때 일어납니다.
 
 Repaint를 하는데 걸리는 시간은 Render Tree에 적용된 업데이트(node 개수, 스타일 등)에 따라 달라지지만 작업 자체가 굉장히 빠르기 때문에 CRP 최적화에 미미한 영향을 줍니다.
-
-## 참고자료
-
-[Reflow Repaint](https://dev.to/gopal1996/understanding-reflow-and-repaint-in-the-browser-1jbg)

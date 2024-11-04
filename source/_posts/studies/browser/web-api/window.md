@@ -16,9 +16,3 @@ console.assert(window instanceof Window);
 ```
 
 하나의 창에 여러 개의 탭이 있는 경우, 각 탭에서 실행되는 JS 코드가 참조하는 `window` 객체는 모두 다릅니다.
-
-## 참고자료
-
-[📜 What is the difference between window and Window?](https://stackoverflow.com/questions/24008630/what-is-the-difference-between-window-and-window)
-
-[📜 Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)

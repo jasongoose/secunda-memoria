@@ -20,7 +20,3 @@ categories:
 하나의 origin은 여러 개의 cache를 가질 수 있는데, 개별 cache의 flush 주기, 업데이트 주기 등의 cache 관리는 script를 통해서 가능합니다.
 
 단일 cache의 최대용량은 정해져 있기 때문에 브라우저는 디스크 공간을 관리하기 위해 임의의 cache를 제거하거나 심지어 origin이 사용하는 캐시 스토리지 자체를 삭제할 수도 있습니다.
-
-## 참고자료
-
-[Cache Storage](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage)

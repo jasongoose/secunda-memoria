@@ -128,9 +128,3 @@ Object Store에 수행할 수 있는 transaction들은 다음과 같이 정리�
 이후 대부분의 브라우저에서는 OS가 flush notice를 받고 나서 디스크로 flush되기 직전에 `complete` 이벤트를 발생하도록 수정된 상태입니다.
 
 전보다 `complete` 이벤트가 더 빠르게 발생하여 앱의 성능을 올릴 수는 있지만 아주 희박한 확률로 OS crash가 발생하거나 시스템 공급전력이 부족하여 중간에 디스크 flush가 중단될 수도 있습니다.
-
-## 참고자료
-
-[IndexedDB Basic Terminology](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology)
-
-[What is an Object-Oriented Database?](https://www.mongodb.com/databases/what-is-an-object-oriented-database)

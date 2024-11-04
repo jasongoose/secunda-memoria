@@ -66,13 +66,3 @@ repaint가 block된다면 사용자 event에 의한 UI 업데이트가 제때 �
 scrolling과 같이 짧은 시간 안에 빈도수가 높은 이벤트를 비동기적으로 처리한다면 수많은 handler 콜백들이 callback queue에 쌓이고 콜 스택에 차례대로 처리되는 동안에 repaint는 계속 blocking될 수 있습니다.
 
 이러한 문제를 해결하기 위해서 throttling, debounce과 같은 최적화 기법이 자주 활용됩니다.
-
-## 참고자료
-
-[Javascript 동작원리 (Single thread, Event loop, Asynchronous)](https://medium.com/@vdongbin/javascript-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC-single-thread-event-loop-asynchronous-e47e07b24d1c)
-
-[The event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-
-[어쨌든 이벤트 루프는 무엇입니까? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-
-[Understanding the JavaScript Runtime Environment and DOM Nodes](https://vahid.blog/post/2021-03-21-understanding-the-javascript-runtime-environment-and-dom-nodes/#1-the-js-runtime-environment)
