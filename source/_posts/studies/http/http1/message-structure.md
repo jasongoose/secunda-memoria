@@ -183,9 +183,3 @@ Trailer
 하나의 body가 다수의 part로 구성됩니다.
 
 `<form></form>` 에 입력한 데이터를 요청 메시지에 담을 때 사용되고, 응답 메시지에서는 거의 사용되지 않는 방식입니다.
-
-## 참고자료
-
-[HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
-
-[Request Header](https://developer.mozilla.org/en-US/docs/Glossary/Request_header)

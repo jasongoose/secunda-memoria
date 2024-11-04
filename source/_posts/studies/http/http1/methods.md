@@ -281,9 +281,3 @@ Cache-Control: no-cache
 특정 URI로의 non-cacheable 요청/응답은 동일한 리소스의 기존 캐싱을 무효화합니다.
 
 예를 들어, pageX.html 파일에 대한 `PUT` 요청은 `GET` 요청에 의해서 캐싱된 pageX.html을 cache로부터 제거합니다.
-
-## 참고자료
-
-[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-
-[HTTP Request Methods](https://learning.mlytics.com/the-internet/http-request-methods/)

@@ -17,7 +17,3 @@ HTTP/2 에서는 stream간의 frame 결합과 재조립으로 Multiplexing을 �
 - 불필요한 네트워크 지연이 없고 가용 대역폭를 최대한 활용할 수 있다.
 - 중간 proxy들의 연산량이 줄어서 여러 개의 TCP Connection 상에서 요청들을 처리할 필요가 없어진다.
 - 기존 HTTP 메시들을 압축하여 네트워크 대역폭을 절약할 수 있다.
-
-## 참고자료
-
-[Introduction to HTTP/2](https://web.dev/performance-http2/)

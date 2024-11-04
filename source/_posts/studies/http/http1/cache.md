@@ -49,7 +49,3 @@ HTTP 응답의 `Cache-Control` 헤더뿐만 아니라 직접 구현한 로직으
 ```bash
 Cache-Control: no-store
 ```
-
-## 참고자료
-
-[HTTP Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)

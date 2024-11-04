@@ -41,7 +41,3 @@ Frame을 사용하면 아래와 같은 문제를 해결할 수 있습니다.
 - 다수의 stream들을 결합할 수 있기 때문에 단일 TCP Connection에서 Multiplexing을 구현할 수 있다.
 
 ![HTTP2 Frame](/images/http2_frame.png)
-
-## 참고자료
-
-[Introduction to HTTP/2](https://web.dev/performance-http2/)

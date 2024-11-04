@@ -97,11 +97,3 @@ HTTP/1.1에서 지원된 [Persistent Connection](#persistent-connection)은 다�
 따져보면 장단점이 서로 상충되기 때문에 Domain Sharding은 동시요청에 의한 지연발생을 완전히 해결하지 않습니다.
 
 그래서 현대 대부분의 브라우저들은 HTTP/2로 전환했고 Domain Sharding은 HTTP/2가 지원되지 않는 오래된 브라우저(IE6, 7)들을 대상으로 알맞는 solution으로 활용됩니다.
-
-## 참고자료
-
-[Connection Management](https://developer.mozilla.org/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x)
-
-[Domain Sharding](https://www.keycdn.com/support/domain-sharding)
-
-[도메인 샤딩이란?](https://wonism.github.io/domain-sharding/)

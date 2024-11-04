@@ -31,7 +31,3 @@ HTTP/2 통신의 최소 단위로, header(HTTP header ❌)에 자신이 속한 s
 - 각 stream은 고유한 id와 내부 메시지들간의 우선순위 정보를 가집니다.
 - 각 메시지는 논리적으로 HTTP 메시지를 담고 있고 다수의 Frame들로 구성되어 있습니다.
 - 각 Frame은 HTTP header, body 등을 인코딩한 단위로, 서로 다른 stream끼리 결합할 때 Frame 단위로 이루어집니다.
-
-## 참고자료
-
-[Introduction to HTTP/2](https://web.dev/performance-http2/)

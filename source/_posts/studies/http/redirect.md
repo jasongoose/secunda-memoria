@@ -15,8 +15,3 @@ categories:
 - 사이트의 URL을 변경한 뒤, 기존의 링크나 북마크 등을 보존할 때
 
 서버에서 status code가 `3xx`인 응답을 전달하면 브라우저가 자동으로 응답에 명시된 Location으로 리소스로 재요청합니다.
-
-
-## 참고자료
-
-[HTTP Redirection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
