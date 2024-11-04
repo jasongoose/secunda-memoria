@@ -3,7 +3,6 @@ title: Package
 date: 2024-11-03 18:12:44
 categories:
   - Studies
-  - JavaScript
   - Node
 #tags:
 ---
@@ -105,9 +104,3 @@ protocol(scheme)과 domain이 없고 보통 `node_modules` 폴더에 설치된 n
 ```
 
 JS 엔진은 현재 모듈 URL을 기준으로 하는 absolute specifier로 변환합니다.
-
-## 참고자료
-
-[Using class URL to explore how module specifiers work](https://2ality.com/2022/01/esm-specifiers.html#using-class-url-to-explore-how-module-specifiers-work)
-
-[Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)

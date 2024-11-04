@@ -3,7 +3,6 @@ title: Pnpm
 date: 2024-11-03 18:14:15
 categories:
   - Studies
-  - JavaScript
   - Node
 #tags:
 ---
@@ -142,12 +141,3 @@ node_modules
     ├── c@1.0.0
     ├── c@1.1.0
 ```
-
-
-## 참고자료
-
-[Motivation](https://pnpm.io/motivation)
-
-[Flat node_modules is not the only way](https://pnpm.io/blog/2020/05/27/flat-node-modules-is-not-the-only-way)
-
-[Symlinked node_modules structure](https://pnpm.io/symlinked-node-modules-structure)

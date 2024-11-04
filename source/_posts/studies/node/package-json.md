@@ -3,7 +3,6 @@ title: package.json
 date: 2024-11-03 18:20:01
 categories:
   - Studies
-  - JavaScript
   - Node
 #tags:
 ---
@@ -147,10 +146,4 @@ node_modules
 ```
 
 여기서 npm, yarn 등의 package manager는 `react@17.0.0`가 프로젝트에 설치되어야 한다는 메시지를 남거나 버전이 맞을 때까지 `my-ui-library`의 설치를 막습니다.
-
-## 참고자료
-
-[About packages and modules](https://docs.npmjs.com/about-packages-and-modules)
-
-[package-lock.json](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
 
