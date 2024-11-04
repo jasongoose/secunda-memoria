@@ -97,9 +97,3 @@ SOP의 예외조항 중에 하나로 스크립트, 이미지, 스타일 시트�
 이 요청 메시지의 `Sec-Fetch-Mode` 헤더값은 `no-cors`가 되어 브라우저에서 응답 메시지의 CORS 정책 위반 여부를 검사하지 않습니다.
 
 하지만 클라이언트 쪽에서 응답 데이터에 접근할 수 없다는 단점이 있습니다.
-
-## 참고자료
-
-[About CORS](https://evan-moon.github.io/2020/05/21/about-cors/)
-
-[CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)

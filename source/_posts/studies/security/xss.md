@@ -146,19 +146,3 @@ console.log("\u{1F680}"); // 🚀
 `Content-Security-Policy`라는 HTTP 응답 헤더에 값을 명시하여 브라우저가 받은 `index.html` 페이지로부터 요청할 수 있는 리소스의 URL의 종류 또는 해당 페이지가 iframe될 수 있는 parent page의 종류 등를 제한할 수 있습니다.
 
 브라우저가 어떤 웹 페이지를 요청했는데 서버가 CSP header를 포함하여 운영지령(?)을 내리면 브라우저는 이 지령에 맞춰서 렌더링을 수행합니다.
-
-## 참고자료
-
-[XSS](https://owasp.org/www-community/attacks/xss/)
-
-[Cross Site Scripting](https://portswigger.net/web-security/cross-site-scripting)
-
-[XSS Attack](https://nordvpn.com/ko/blog/xss-attack/)
-
-[DOM 기반 XSS(DOM based Cross Site Scripting) 공격과 방어](https://junhyunny.github.io/information/security/dom-based-cross-site-scripting/)
-
-[Blacklisting, Whitelisting, GreyListing](https://www.packetlabs.net/posts/blacklisting-whitelisting-greylisting/)
-
-[Content Security Policy](https://portswigger.net/web-security/cross-site-scripting/content-security-policy#mitigating-xss-attacks-using-csp)
-
-[Unicode](https://exploringjs.com/es6/ch_unicode.html)

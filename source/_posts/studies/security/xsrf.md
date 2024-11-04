@@ -61,15 +61,3 @@ HTTP 응답 메시지에 담길 `Access-Control-Allow-Origin`에 허용할 origi
 3. 두 값이 일치하면 요청을 처리하고 일치하지 않으면 요청을 폐기합니다.
 
 아무리 `<input type="hidden" value="" />`을 사용해도 개발자 도구로는 보이기 때문에 완전히 의존해서는 안됩니다.
-
-## 참고자료
-
-[XSS, XSRF](https://beomy.github.io/tech/etc/xss-xsrf/)
-
-[Types of attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks)
-
-[CSRF-Cross Site Request Forgery](https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/)
-
-[What is CSRF?](https://www.synopsys.com/glossary/what-is-csrf.html)
-
-[Bypassing token validation](https://portswigger.net/web-security/csrf/bypassing-token-validation)

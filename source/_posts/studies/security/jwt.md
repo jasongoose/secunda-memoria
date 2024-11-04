@@ -102,9 +102,3 @@ JWT는 다음과 같은 장점을 가집니다.
 JWT 토큰과 같은 인가 수단 데이터는 가급적이면 로컬 스토리지에 저장해서는 안됩니다.
 
 로컬 스토리지에 저장된 정보는 브라우저를 닫아도 로컬 디스크에 계속 저장되기 때문에 기기를 사용하는 누구나, 브라우저를 실행하는 언제든지 접근할 수 있다는 보안상 취약점을 가집니다.
-
-## 참고자료
-
-[JWT](https://jwt.io/introduction)
-
-[What to consider before using jwt](https://serengetitech.com/tech/what-to-consider-before-using-jwt/)
