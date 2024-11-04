@@ -209,7 +209,3 @@ stack에 쌓인 stash는 WIP(Working In Progress)라는 id를 가지는데, stas
 stash를 생성할 때는 단일 파일, 다수 파일, 파일 일부를 단위로 할지 고를 수 있고, 가능한 stash 단위들을 "hunk"라고 합니다.
 
 이미 stash로 추가된 변경사항들을 반영하는 브랜치도 생성할 수 있습니다.
-
-## 참고자료
-
-[Learn Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
