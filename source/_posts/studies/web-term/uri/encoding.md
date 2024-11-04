@@ -50,9 +50,3 @@ JS string 은 UTF-16 방식으로 인코딩되어 메모리에 저장됩니다.
 ASCII 코드로 인코딩된 결과물은 바로 컴퓨터에 저장할 수 있는 비트패턴을 가지지만 유니코드는 컴퓨터에 저장되기 전에 먼저 인코딩이 이루어져야 한다는 점이 다릅니다.
 
 [ASCII Code 리스트](https://www.asciitable.com/)
-
-## 참고자료
-
-[UTF-8 encoding table and Unicode characters](https://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024)
-
-[ASCII](https://www.britannica.com/topic/ASCII)

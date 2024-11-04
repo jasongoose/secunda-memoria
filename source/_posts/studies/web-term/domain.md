@@ -109,7 +109,3 @@ Hosting이란 임의의 웹 사이트로 사용자의 요청이 들어올 때마
 브라우저는 웹 페이지를 요청하고 보여주는 기반 소프트웨어인 반면, 검색 엔진은 브라우저 위에서 동작하는 서비스입니다.
 
 ![Search Engine](/images/search_engine.jpg)
-
-## 참고자료
-
-[What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)

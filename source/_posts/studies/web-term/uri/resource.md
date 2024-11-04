@@ -79,7 +79,3 @@ URL에서 `#` 이후의 부분 문자열을 fragment identifier(hash)라고 부�
 URN 방식을 사용하면 서버 리소스에 접근하는 프로토콜의 종류나 서버 내의 경로와 상관없이 ID가 1개만 가집니다.
 
 아직 실험단계에 있고 흔하게 사용되는 방식이 아닐 뿐더러 리소스의 위치를 해석하기 위한 인프라가 필요하다는 단점이 있습니다.
-
-## 참고자료
-
-[What is a URL](https://launchschool.com/books/http/read/what_is_a_url)

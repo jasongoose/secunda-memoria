@@ -27,7 +27,3 @@ categories:
 ## Anchors
 
 하나의 웹 페이지를 구성하는 section(viewport 최상단부터 보여줄 HTML tag)간의 이동을 위해서 사용하는 링크입니다.
-
-![Anchors](/images/anchors.png)
-
-실제로 `href`에 CSS selector를 작성하면 해당 tag로 이동합니다.
