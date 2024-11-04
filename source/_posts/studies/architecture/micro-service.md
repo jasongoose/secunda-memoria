@@ -60,7 +60,3 @@ msa 기반 앱은 RESTful API를 사용하여 component들을 분리하거나 �
 ## Evolutionary Design
 
 다른 svc에 영향을 주지 않으면서 개발할 수 있으므로 장기적으로 특정 svc나 전체 앱의 디자인을 개선할 수 있습니다.
-
-## 참고자료
-
-[Micro Services](https://martinfowler.com/articles/microservices.html)

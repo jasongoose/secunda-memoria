@@ -199,7 +199,3 @@ BFF는 svc별로 필요한 데이터만을 내려주는 서버와 담당 DB가 �
 아무래도 단일 앱이 여러 개의 svc들로 구성되므로 관리할 repo들, tool들, CI/CD 파이프라인들, 도메인들이 많아질 수 밖에 없습니다.
 
 mfe를 채택하기 전에 현재 조직이 기술적으로 숙달된 상태인지 확인하여 혼란을 방지할 필요가 있습니다.
-
-## 참고자료
-
-[Micro Frontends](https://martinfowler.com/articles/micro-frontends.html)

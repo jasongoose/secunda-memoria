@@ -93,7 +93,3 @@ BFF를 도입하면 UI 영역과 downstream 서비스 영역을 분리하여 독
 ## When To Use
 
 BFF는 모바일이나 제3의 환경에 특화된 기능 또는 UI를 추가하거나 UI 개발과 downstream 서비스 개발 영역을 분리할 때 도입할 수 있습니다.
-
-## 참고자료
-
-[Pattern: Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
