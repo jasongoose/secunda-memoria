@@ -42,7 +42,3 @@ ref는 컴포넌트 렌더링 주기의 영향없이(escape hatch) 외부 API(Br
 `ref.current` 값을 read/write하는 코드는 컴포넌트 렌더링 중 즉, 컴포넌트 함수의 context 상에 위치해서는 안됩니다.
 
 state처럼 리렌더링을 trigger하지 않기 때문에 컴포넌트의 동작방식을 추적하는데 어려움을 주므로 보통 event handler에서 다룹니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

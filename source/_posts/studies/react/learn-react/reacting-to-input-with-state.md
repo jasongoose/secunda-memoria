@@ -105,7 +105,3 @@ React나 Vue 같은 컴포넌트 기반 JS 라이브러리/프레임워크는 �
 4. 불필요한 상태값들은 제거하거나 하나로 합치거나 구조를 수정합니다.
 
 5. DOM의 event handler로 state setter를 등록합니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

@@ -45,7 +45,3 @@ const reducer = (currState, action) => newState;
 3. 디버깅 용이성
     - 사용자 이벤트의 타입을 확인하여 상태가 어디서 업데이트 되었는지 확인할 수 있습니다.
     - action 객체 필드값 + reducer 코드를 확인하여 상태가 왜 업데이트 되는지 확인할 수 있습니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

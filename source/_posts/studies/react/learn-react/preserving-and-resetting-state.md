@@ -71,7 +71,3 @@ React는 컴포넌트가 상위 컴포넌트의 동일한 위치에 표시되는
 ```
 
 `key` attribute은 상위 컴포넌트 내부에서의 컴포넌트의 위치 정보이자 동일한 컴포넌트들 간의 내부 state를 구분하기 위한 id 역할을 합니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

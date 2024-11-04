@@ -213,7 +213,3 @@ export default function TodoList() {
   );
 }
 ```
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

@@ -40,7 +40,3 @@ export default function Counter() {
 ```
 
 실제 queueing을 거쳐서 새로운 state가 지정되는 코드는 바로 `useState`를 호출하는 부분입니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

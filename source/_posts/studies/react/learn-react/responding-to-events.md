@@ -59,7 +59,3 @@ export default function Toolbar() {
 ```
 
 event handler는 렌더링 이후에 실행되므로 state를 업데이트하는 등의 side-effect 관련 로직들을 위한 최적의 위치입니다!
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

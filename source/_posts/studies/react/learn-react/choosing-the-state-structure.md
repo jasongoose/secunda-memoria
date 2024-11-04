@@ -23,7 +23,3 @@ state를 어떤 구조로 설계해야 쉽고 오류없이 업데이트 하는�
 5. 깊게 중첩된 객체 구조는 피합니다.
     - [Map](../../javascript/data_structures/map.md), [Set](../../javascript/data_structures/set.md), [WeakMap](../../javascript/data_structures/weakmap.md), [WeakSet](../../javascript/data_structures/weakset.md) 등 다양한 interface들도 활용합니다.
     - 깊이 위치한 속성값을 수정한 새로운 객체를 만들어내는 과정이 번거로우니 중첩된 객체를 flatten하여 관리합니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

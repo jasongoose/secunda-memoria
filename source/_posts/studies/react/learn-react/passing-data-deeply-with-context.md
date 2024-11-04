@@ -78,7 +78,3 @@ Context API는 다음과 같이 활용할 수 있습니다.
 - 현재 로그인한 사용자 계정 정보
 - [Routing w/ react-router](https://reactrouter.com/en/main/routers/create-browser-router)
 - State management w/ useReducer + useContext
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

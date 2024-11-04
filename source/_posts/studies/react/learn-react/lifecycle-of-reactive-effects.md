@@ -50,7 +50,3 @@ Effect 내부에서 사용된 reactive value들은 모두 dependency로 등록�
 또한 useRef의 `ref.current` 값도 리렌더링없이 값을 추적하기 위해서 의도적으로 mutatble하므로 리렌더링을 trigger하지 않습니다.
 
 컴포넌트 lifecylce을 따르지 않는 mutable value들의 상태를 subscribe/unsubscribe할 때는 `useSyncExternalStore` hook을 사용하면 됩니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

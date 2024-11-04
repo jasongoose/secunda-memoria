@@ -16,7 +16,3 @@ React에서 모든 컴포넌트는 [순수함수](../../../books/composing_softw
 물론 production에서는 1번만 렌더링됩니다!
 
 컴포넌트 렌더링 중이 아닌 이후에 실행할 로직들을 통틀어서 side-effect라고 하는데, 주로 event handler 또는 `useEffect` hook으로 구현됩니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

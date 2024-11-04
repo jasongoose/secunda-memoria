@@ -30,7 +30,3 @@ vdom간의 diff를 계산하는 부분은 VDOM Rendering 단계에서 수행됩�
 ## Browser Rendering
 
 DOM을 업데이트했으니 reflow와 repaint을 거쳐서 화면에 표시합니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

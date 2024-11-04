@@ -25,7 +25,3 @@ categories:
 7. 다른 컴포넌트들 간의 state 동기화가 필요하면 가장 가까운 상위 컴포넌트에서 관리하여 props나 context로 전달하는 state lifting을 적용합니다.
 
 8. Effect에서 fetch를 진행하는 경우, race condition이 일어나지 않도록 re-mount를 고려하여 cleanup을 구현합니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

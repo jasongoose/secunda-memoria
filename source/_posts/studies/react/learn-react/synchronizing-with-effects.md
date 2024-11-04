@@ -131,7 +131,3 @@ mount되어 현재 userId state를 기준으로 fetchTodos를 수행하는데 �
 useEffect에서 fetch한다면 기본적으로 caching이 안되므로 Next.js, Gatsby 등 프레임워크나 react-router+6.4, react-query, useSWR 같은 라이브러의 fetch api를 사용하는 것을 권장합니다.
 
 URL이 바뀔 때마다 log를 POST하는 로직은 Effect보다는 route change event handler로 구현하는게 낫습니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

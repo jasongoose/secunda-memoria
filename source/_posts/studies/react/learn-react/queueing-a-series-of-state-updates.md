@@ -47,7 +47,3 @@ export default function Counter() {
   );
 }
 ```
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

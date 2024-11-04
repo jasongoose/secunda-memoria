@@ -80,7 +80,3 @@ setPerson((draft) => {
   draft.artwork.city = "New Delhi";
 });
 ```
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

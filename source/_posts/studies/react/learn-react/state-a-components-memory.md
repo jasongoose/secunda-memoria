@@ -21,7 +21,3 @@ const [state, setState] = useState("initial value");
 React에서 제공하는 특별한 함수로, 컴포넌트 렌더링 중에 사용되어야 한다는 조건에 의해서 컴포넌트 또는 custom hook의 root-level + block 최상단에서만 호출되어야 합니다.
 
 state는 컴포넌트 내부에서만 유효범위를 가집니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

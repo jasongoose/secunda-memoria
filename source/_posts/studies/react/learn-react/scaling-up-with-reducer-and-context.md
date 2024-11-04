@@ -130,7 +130,3 @@ export default function AddTask() {
 	);
 }
 ```
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)

@@ -21,7 +21,3 @@ arr[0] = "bird"; // ❌
 ![Array State](/images/array_state.png)
 
 [ImmerJS](https://github.com/immerjs/immer) 라이브러리를 사용한다면 mutating 메서드로도 리렌더링을 trigger할 수 있습니다.
-
-## 참고자료
-
-[Learn React](https://react.dev/learn)
