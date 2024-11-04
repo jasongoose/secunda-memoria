@@ -4,7 +4,7 @@ date: 2024-10-28 08:41:01
 categories:
 - Books
 - Composing Software
-- 2. Concepts
+- Concepts
 #tags:
 ---
 본래 의미는 기존의 context로부터 대상을 분리하여 본질을 추출하는 과정이지만 소프트웨어에서는 다음과 같은 의미를 가집니다.

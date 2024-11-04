@@ -4,7 +4,7 @@ date: 2024-10-28 08:43:09
 categories:
   - Books
   - Composing Software
-  - 2. Concepts
+  - Concepts
 #tags:
 ---
 ## Mixin

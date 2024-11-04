@@ -4,7 +4,7 @@ date: 2024-10-28 08:44:28
 categories:
   - Books
   - Composing Software
-  - 2. Concepts
+  - Concepts
 #tags:
 ---
 SW에서 추상화는 공통 interface에 기능을 추가/오버라이드/확장하여 구체화할 수 있도록 일반화하는 작업을 의미합니다.

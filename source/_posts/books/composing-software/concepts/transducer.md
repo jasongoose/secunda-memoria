@@ -4,7 +4,7 @@ date: 2024-10-28 08:45:18
 categories:
   - Books
   - Composing Software
-  - 2. Concepts
+  - Concepts
 #tags:
 ---
 ## Why Transducers?

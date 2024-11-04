@@ -4,7 +4,7 @@ date: 2024-10-29 22:16:37
 categories:
   - Books
   - Composing Software
-  - 1. Introduction
+  - Introduction
 #tags:
 ---
 프로그램을 개발한다는 말의 본질은 다음과 같이 이해할 수 있습니다.

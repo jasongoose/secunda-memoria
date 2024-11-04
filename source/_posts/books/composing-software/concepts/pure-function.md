@@ -4,7 +4,7 @@ date: 2024-10-28 08:44:55
 categories:
   - Books
   - Composing Software
-  - 2. Concepts
+  - Concepts
 #tags:
 ---
 ## 함수의 용도
