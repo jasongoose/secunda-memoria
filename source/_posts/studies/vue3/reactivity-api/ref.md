@@ -73,8 +73,3 @@ R.value = newVal;
 // 2. raw에 newVal 할당
 // 3. trigger에 의해서 업데이트된 raw를 기반으로 R.value의 모든 effect들을 실행
 ```
-
-
-## 참고자료
-
-[Gregg Pollack free Vue3 Reactivity Workshop](https://www.youtube.com/watch?v=BfDQD4Y6W8c)

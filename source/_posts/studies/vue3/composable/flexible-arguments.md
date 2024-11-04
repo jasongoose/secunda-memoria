@@ -48,7 +48,3 @@ input === unref(input);
 ```ts
 type MaybeRef<T> = Ref<T> | T;
 ```
-
-## 참고자료
-
-[Coding Better Composables: Flexible Arguments (2/5)](https://medium.com/vue-mastery/coding-better-composables-flexible-arguments-2-5-6eff5983bb1)

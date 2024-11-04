@@ -28,7 +28,3 @@ const vnode = {
   ],
 };
 ```
-
-## 참고자료
-
-[Rendering Mechanism](https://vuejs.org/guide/extras/rendering-mechanism.html#virtual-dom)

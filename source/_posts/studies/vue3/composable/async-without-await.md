@@ -62,7 +62,3 @@ export function useAsyncState(promise, initialState) {
   };
 }
 ```
-
-## 참고자료
-
-[Coding Better Composables: Async Without Await (5/5)](https://medium.com/vue-mastery/coding-better-composables-async-without-await-5-5-d2cbfcc2a6ce)

@@ -107,7 +107,3 @@ console.log(`total: ${total}, salePrice: ${salePrice}`);
 console.log(product.price);
 console.log(product.quantity);
 ```
-
-## 참고자료
-
-[Gregg Pollack free Vue3 Reactivity Workshop](https://www.youtube.com/watch?v=BfDQD4Y6W8c)

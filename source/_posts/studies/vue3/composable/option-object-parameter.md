@@ -39,7 +39,3 @@ export default useComposable(input, options) {
 	return controls ? { singleValue, anotherValue, andAnother } : singleValue;
 }
 ```
-
-## 참고자료
-
-[Coding Better Composables: Dynamic Returns (3/5)](https://medium.com/vue-mastery/coding-better-composables-dynamic-returns-3-5-3542702dd618)

@@ -61,7 +61,3 @@ console.log(total); // 10 - total 값은 price에 의존하지만 아직 변하�
 trigger(); // price 값의 변화를 반영하기 위해서 dep에 있는 effect를 실행합니다.
 console.log(total); // 40 - 그럼 price 값이 반영되어 total 값도 변합니다.
 ```
-
-## 참고자료
-
-[Gregg Pollack free Vue3 Reactivity Workshop](https://www.youtube.com/watch?v=BfDQD4Y6W8c)

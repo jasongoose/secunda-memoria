@@ -252,7 +252,3 @@ div (block root)
 ```
 
 위와 같이 flatten tree는 static Vnode들을 patch 과정에 포함시키지 않기 때문에 불필요한 traverse 연산을 줄일 수 있습니다.
-
-## 참고자료
-
-[Rendering Mechanism](https://vuejs.org/guide/extras/rendering-mechanism.html#virtual-dom)

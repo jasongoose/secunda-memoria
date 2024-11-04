@@ -22,7 +22,3 @@ runtime renderer가 render 함수를 호출하여 반환된 Vtree를 기반으�
 ## Patch
 
 컴포넌트 내부에서 trigger에 의해 effect들이 재연산되면 그에 맞춰서 Vtree를 생성하고 기존에 메모리에 있던 Vtree와 비교했을 때 달라진 부분을 반영하여 Rtree의 일부를 수정합니다.
-
-## 참고자료
-
-[Rendering Mechanism](https://vuejs.org/guide/extras/rendering-mechanism.html#virtual-dom)
