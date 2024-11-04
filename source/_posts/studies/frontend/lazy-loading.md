@@ -64,7 +64,3 @@ font는 default로 [Render Tree](../../browser/populating_the_page/crp#render-tr
 <img src="image.jpg" alt="" loading="lazy" />
 <iframe src="video-player.html" title="" loading="lazy"></iframe>
 ```
-
-## 참고자료
-
-[Lazy Loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)

@@ -18,7 +18,3 @@ cross-browsing 체크가 필요한 이유는 다음과 같습니다.
 
 - [caniuse](https://caniuse.com/) 사이트에서 브라우저별로 사용할 수 있는 코드인지 여부를 확인한다.
 - [reset.css](https://meyerweb.com/eric/tools/css/reset/)로 브라우저별로 다른 default css를 모두 초기화 한다.
-
-## 참고자료
-
-[Cross Browsing](https://okayoon.tistory.com/entry/%ED%81%AC%EB%A1%9C%EC%8A%A4-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95cross-browsing)

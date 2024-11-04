@@ -23,7 +23,3 @@ Medium, Slack, Youtube 등 서비스의 메인 페이지에서 해당 기법을 
 웹 페이지에 이미지를 load하기 전에 보여주는 단색 이미지 placeholder로, 실제 컨텐츠가 필요하기 때문에 구현과정이 복잡합니다.
 
 Pinterest, Unsplash 등 서비스에서 해당 기법을 사용합니다.
-
-## 참고자료
-
-[Improve React UX with skeleton UIs](https://blog.logrocket.com/improve-react-ux-skeleton-ui/#:~:text=A%20skeleton%20screen%20is%20a,shape%20similar%20to%20actual%20content.&text=In%20addition%20to%20skeleton%20screens,content%20loaders%2C%20and%20ghost%20elements)

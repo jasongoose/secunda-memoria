@@ -82,7 +82,3 @@ Semantic Markup을 사용하면 검색결과 페이지에서 사용할 수 있�
 이는 검색순위를 높이는데 영향이 없지만 다른 페이지로부터 CTR(Click Through Rate : 클릭한 횟수 / 노출된 횟수 \* 100)을 높일 수 있습니다.
 
 ![Semantic HTML](/images/semantic_html.png)
-
-## 참고자료
-
-[Search Engine Optimization](https://www.optimizely.com/optimization-glossary/search-engine-optimization/)
