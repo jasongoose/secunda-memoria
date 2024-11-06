@@ -3,7 +3,7 @@ title: Resource
 date: 2024-11-03 23:10:05
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 ## 웹 서버 리소스

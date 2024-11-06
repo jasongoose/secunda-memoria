@@ -3,7 +3,7 @@ title: Browsing Context
 date: 2024-11-03 23:12:25
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 브라우저가 HTML 문서를 표시할 환경을 가리키는 용어로 탭, 창, 페이지 내부 `<frame />`, `<iframe />` 등이 여기에 해당합니다.

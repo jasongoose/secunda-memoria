@@ -3,7 +3,7 @@ title: Domain
 date: 2024-11-03 23:09:13
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 ## 구조

@@ -3,7 +3,7 @@ title: Hyper Link
 date: 2024-11-03 23:12:15
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 웹 페이지로 이동하기 위한 수단으로 보통 페이지의 URL과 연결된 문자열로 표현됩니다.

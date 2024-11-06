@@ -3,7 +3,7 @@ title: Encoding
 date: 2024-11-03 23:10:24
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 클라이언트에서 서버로 요청하는 리소스의 URL은 [ASCII 코드](#ASCII-Code)의 첫 번째 128개의 문자만을 포함할 수 있습니다.

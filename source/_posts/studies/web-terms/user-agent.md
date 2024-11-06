@@ -3,7 +3,7 @@ title: User Agent
 date: 2024-11-03 23:12:35
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 서비스를 이용하는 소비자이자 개인으로 표현되는 컴퓨터 프로그램을 가리키는 용어로 브라우저, 웹 스크래퍼, 다운로드 관리자 등 웹에 접근하는 앱으로 이해할 수 있습니다.

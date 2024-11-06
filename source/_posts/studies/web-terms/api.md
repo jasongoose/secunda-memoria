@@ -3,7 +3,7 @@ title: API
 date: 2024-11-03 23:12:42
 categories:
   - Studies
-  - Web Term
+  - Web Terms
 #tags:
 ---
 Application Programming Interface의 약자로 2가지 정의가 있습니다.
