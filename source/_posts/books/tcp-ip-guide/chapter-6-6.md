@@ -3,7 +3,7 @@ title: 6-6장. 프리젠테이션 계층(6계층)
 date: 2024-10-31 23:32:20
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 6
 #tags:
 ---

@@ -119,9 +119,3 @@ Flux는 상태관리를 이용하여 일관된 수단으로 앱을 제어할 수
     - 하나의 Intent 로직이 여러 개의 View에서도 사용할 수 있다.
     - 개별 Intent 로직 단위의 테스트들로 전체 View 테스트를 대체할 수 있다.
     - 컴포넌트 간의 통신(props)에 의존하지 않아서 일관된 상태를 유지할 수 있다.
-
-## 참고자료
-
-[소프트웨어 아키텍쳐를 얘기할 때는...](https://www.youtube.com/watch?v=4E1BHTvhB7Y)
-
-[프론트엔드에서 MV\* 아키텍쳐란 무엇인가요?](https://velog.io/@teo/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-MV-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)

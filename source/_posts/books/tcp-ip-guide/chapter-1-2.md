@@ -3,7 +3,7 @@ title: 1-1장. 기본 네트워크 특성
 date: 2024-10-31 23:30:33
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 1
 #tags:
 ---

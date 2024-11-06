@@ -3,7 +3,7 @@ title: 6-1장. 물리 계층(1계층)
 date: 2024-10-31 23:32:06
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 6
 #tags:
 ---

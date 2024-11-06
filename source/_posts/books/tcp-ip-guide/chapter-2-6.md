@@ -3,7 +3,7 @@ title: 2-6장. 단방향, 양방향, 반양방향 동작
 date: 2024-10-31 23:31:29
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 2
 #tags:
 ---

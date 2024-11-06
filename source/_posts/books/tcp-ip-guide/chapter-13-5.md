@@ -3,7 +3,7 @@ title: 13-5장. IP 멀티캐스트 주소의 TCP/IP 주소 결정
 date: 2024-10-31 23:33:56
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 13
 #tags:
 ---

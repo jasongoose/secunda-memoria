@@ -3,7 +3,7 @@ title: 2-7장. 서비스 품질
 date: 2024-10-31 23:31:33
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 2
 #tags:
 ---

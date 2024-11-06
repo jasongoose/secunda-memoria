@@ -3,7 +3,7 @@ title: 2-1장. 네트워크 성능, 전체적인 관점에서 바라보기
 date: 2024-10-31 23:31:10
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 2
 #tags:
 ---

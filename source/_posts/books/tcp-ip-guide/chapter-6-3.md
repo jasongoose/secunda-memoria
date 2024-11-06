@@ -3,7 +3,7 @@ title: 6-3장. 네트워크 계층(3계층)
 date: 2024-10-31 23:32:11
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 6
 #tags:
 ---

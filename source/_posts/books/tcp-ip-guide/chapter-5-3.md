@@ -3,7 +3,7 @@ title: 5-3장. 핵심 OSI 참조 모델 개념
 date: 2024-10-31 23:31:57
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 5
 #tags:
 ---

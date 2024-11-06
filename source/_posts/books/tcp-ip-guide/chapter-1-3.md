@@ -3,7 +3,7 @@ title: 1-3장. 메시지, 패킷, 프레임, 데이터그램, 셀
 date: 2024-10-31 23:30:41
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 1
 #tags:
 ---

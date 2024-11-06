@@ -3,7 +3,7 @@ title: 6-7장. 애플리케이션 계층(7계층)
 date: 2024-10-31 23:32:23
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 6
 #tags:
 ---

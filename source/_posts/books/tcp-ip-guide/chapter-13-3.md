@@ -3,7 +3,7 @@ title: 13-3장. ARP 캐싱
 date: 2024-10-31 23:33:49
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 13
 #tags:
 ---

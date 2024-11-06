@@ -3,7 +3,7 @@ title: 2-5장. 이론적 처리율과 실제 처리율, 네트워크 성능에 �
 date: 2024-10-31 23:31:25
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 2
 #tags:
 ---

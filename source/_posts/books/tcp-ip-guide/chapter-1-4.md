@@ -3,7 +3,7 @@ title: 1-4장. 네트워크 구조 모델
 date: 2024-10-31 23:30:55
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 1
 #tags:
 ---

@@ -3,7 +3,7 @@ title: 13-1장. 주소결정 개념과 이슈
 date: 2024-10-31 23:32:52
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 13
 #tags:
 ---

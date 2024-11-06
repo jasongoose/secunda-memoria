@@ -3,7 +3,7 @@ title: 2-2장. 네트워크 성능과 기타 주요 특성 사이의 균형 조�
 date: 2024-10-31 23:31:13
 categories:
   - Books
-  - TCP/IP 완벽가이드
+  - TCP/IP 완벽 가이드
   - Chapter 2
 #tags:
 ---
