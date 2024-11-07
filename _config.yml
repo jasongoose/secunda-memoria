@@ -99,7 +99,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 #theme: bootstrap-blog
-theme: cupertino
+#theme: cupertino
+theme: Chic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
