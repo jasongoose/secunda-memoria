@@ -100,7 +100,8 @@ ignore:
 #theme: landscape
 #theme: bootstrap-blog
 #theme: cupertino
-theme: Chic
+#theme: Chic
+theme: typo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
