@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Memoria Nova
+title: Secunda Memoria
 subtitle: ""
 description: ""
 keywords:
@@ -13,7 +13,7 @@ timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://jasongoose.github.io/memoria-nova
+url: https://jasongoose.github.io/secunda-memoria
 # permalink: :year/:month/:day/:title/
 permalink: :title/
 permalink_defaults:
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
