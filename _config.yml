@@ -98,10 +98,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-#theme: bootstrap-blog
-#theme: cupertino
-#theme: Chic
-theme: typo
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
