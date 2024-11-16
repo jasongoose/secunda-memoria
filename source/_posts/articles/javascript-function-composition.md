@@ -93,6 +93,6 @@ function removeOdd(items) {
 
 물론 이 함수를 정의할 때는 imperative code를 작성하겠지만 실제로 해당 함수를 사용할 때는 정의 부분을 볼 필요가 없습니다.
 
-## 참고자료
+## 출처
 
 [JAVASCRIPT FUNCTION COMPOSITION: WHAT’S THE BIG DEAL?](https://jrsinclair.com/articles/2022/javascript-function-composition-whats-the-big-deal/)

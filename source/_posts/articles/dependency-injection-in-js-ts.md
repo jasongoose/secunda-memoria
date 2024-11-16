@@ -141,6 +141,6 @@ dep들간의 관계는 dependency graph로 시각화할 수 있는데 시간 지
 
 ![Dependency Cycle](/images/dependency_cycle.png)
 
-## 참고자료
+## 출처
 
 [Dependency Injection in JS/TS – Part 1](https://blog.codeminer42.com/dependency-injection-in-js-ts-part-1/)

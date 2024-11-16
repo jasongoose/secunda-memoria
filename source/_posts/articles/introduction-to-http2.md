@@ -97,6 +97,6 @@ HTTP/2 stream은 frame 단위로 결합 및 재조립이 가능하기 때문에 
 
 여기서 TCP Connection은 origin 당 하나씩 생성됩니다.
 
-## 참고자료
+## 출처
 
 [Introduction to HTTP/2](https://web.dev/articles/performance-http2?hl=ko)

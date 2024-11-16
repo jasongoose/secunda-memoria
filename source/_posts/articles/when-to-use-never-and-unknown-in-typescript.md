@@ -157,6 +157,6 @@ NonNullable<string | null>
 => string
 ```
 
-## 참고자료
+## 출처
 
 [When to use never and unknown in TypeScript](https://blog.logrocket.com/when-to-use-never-unknown-typescript/)

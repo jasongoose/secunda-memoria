@@ -67,6 +67,6 @@ console.warn(contactInfos); // { address: "90B Rue laffite" }
 
 따라서 가급적이면 함수 body 내에서 객체인자를 mutate하는 로직은 작성하는 것은 피하고, 대신 수정된 버전의 새로운 객체를 생성하여 반환하는 것을 권장합니다.
 
-## 참고자료
+## 출처
 
 [Conditionally adding entries inside Array and object literals](https://2ality.com/2017/04/conditional-literal-entries.html)

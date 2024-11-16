@@ -11,6 +11,6 @@ query parameter에 정보를 저장하면 URL로 리소스를 공유할 수 있�
 
 이 방식은 조건검색 기능을 구현할 때 유용합니다.
 
-## 참고자료
+## 출처
 
 [Reasons why Params on URL is the best State Management Tool](https://medium.com/@yiupang.ch/reasons-why-params-on-url-is-the-best-state-management-tool-aff72b81393d)

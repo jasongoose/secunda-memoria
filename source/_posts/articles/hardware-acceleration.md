@@ -17,6 +17,6 @@ categories:
 
 또한 이미지와 같은 asset들의 lazy-load를 구현할 때는 가급적이면 [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)를 권장합니다.
 
-## 참고자료
+## 출처
 
 [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/?fbclid=IwAR0WtlK_ZWCb69vB1oWmo_VqX1_hxjIeG6ra1nNkTdzvBtOgEyp6eBg7bUM)

@@ -39,7 +39,7 @@ Web Worker를 마치 **브라우저 런타임 인스턴스**라고도 이해할 
 
 한 명의 드러머가 빠른 손놀림으로 연주하는 드러머를 생각하면 됩니다.
 
-## 참고자료
+## 출처
 
 [Multithreading in JavaScript with Web Workers](https://www.honeybadger.io/blog/javascript-web-workers-multithreading/)
 

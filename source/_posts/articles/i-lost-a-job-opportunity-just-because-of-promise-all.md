@@ -209,7 +209,7 @@ const $allSettled = (promises) =>
   });
 ```
 
-## 참고자료
+## 출처
 
 [JavaScript ES6 promise for loop](https://stackoverflow.com/questions/40328932/javascript-es6-promise-for-loop)
 

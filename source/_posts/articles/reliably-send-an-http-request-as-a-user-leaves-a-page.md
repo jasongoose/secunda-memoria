@@ -70,7 +70,7 @@ POST request의 http header에 `ping-from` , `ping-to` 필드가 추가됩니다
 
 POST request임에도 불구하고 payload data를 전송할 수 없습니다.
 
-## 참고자료
+## 출처
 
 [Reliably Send an HTTP Request as a User Leaves a Page](https://css-tricks.com/send-an-http-request-on-page-exit/)
 

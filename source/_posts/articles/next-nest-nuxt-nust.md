@@ -112,6 +112,6 @@ CSR, SSR, SSG는 공통적으로 html 파일을 생성하는 computation을 클�
 |Scalable|✅||✅||
 |SEO||✅||✅|
 
-## 참고자료
+## 출처
 
 [Next, Nest, Nuxt… Nust?](https://www.twilio.com/blog/comparing-nextjs-nestjs-nuxt-gatsby)
