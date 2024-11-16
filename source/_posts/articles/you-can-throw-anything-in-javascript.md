@@ -24,6 +24,6 @@ async function makeRequest() {
 }
 ```
 
-## 참고자료
+## 출처
 
 [You Can throw() Anything In JavaScript - And Other async/await Considerations](https://www.bennadel.com/blog/4210-you-can-throw-anything-in-javascript-and-other-async-await-considerations.htm)

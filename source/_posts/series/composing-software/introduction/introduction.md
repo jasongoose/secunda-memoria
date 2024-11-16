@@ -2,7 +2,7 @@
 title: Introduction
 date: 2024-10-29 22:16:37
 categories:
-  - Books
+  - Series
   - Composing Software
   - Introduction
 #tags:

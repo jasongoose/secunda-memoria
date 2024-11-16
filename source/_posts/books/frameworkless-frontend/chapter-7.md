@@ -331,7 +331,7 @@ addChangeListener((state) => {
 - 반응형 패러다임
   - 애플리케이션이 모델 변경, HTTP 요청, 사용자 동작, 탐색 등과 같은 이벤트를 방출할 수 있는 옵저버블로 동작하는 것
   - 자신의 코드에서 여러 옵저버블을 사용하고 있습니다면 이미 반응형 패러다임으로 작업하는 겁니다.
-- 참고자료
+- 출처
   - [반응형 프로그램 소개](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
   - [Front-End Reactive Architecture](https://link.springer.com/book/10.1007/978-1-4842-3180-7)
 

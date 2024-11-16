@@ -2,7 +2,7 @@
 title: What is FP?
 date: 2024-10-29 22:17:58
 categories:
-  - Books
+  - Series
   - Composing Software
   - Introduction
 #tags:

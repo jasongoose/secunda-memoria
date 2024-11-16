@@ -5,10 +5,6 @@ categories:
   - Books
 #tags:
 ---
-## Composing Software
-
-[Composing Software](https://medium.com/javascript-scene/composing-software-the-book-f31c77fc3ddc)
-
 ## 코어 자바스크립트
 
 [코어 자바스크립트](http://www.yes24.com/Product/Goods/78586788?pid=123487&cosemkid=go15677587165719959&gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKvl4BzRK2Tcv7_t6RLEYE1osx6DpurnfB76iU-HQ5m6RhYNO8wXHZEaAq6AEALw_wcB)
@@ -34,3 +30,7 @@ categories:
 [TCP/IP Guide](http://www.tcpipguide.com/free/index.htm)
 
 [TCP/IP 완벽 가이드](https://product.kyobobook.co.kr/detail/S000001436757)
+
+## 프레임워크 없는 프론트엔드
+
+[프레임워크 없는 프론트엔드](https://product.kyobobook.co.kr/detail/S000001804992)

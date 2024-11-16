@@ -53,6 +53,6 @@ categories:
 </script>
 ```
 
-## 참고자료
+## 출처
 
 [How to Use nextTick() in Vue](https://dmitripavlutin.com/vue-next-tick/)

@@ -100,6 +100,6 @@ const getRandomHexColor = () => {
 };
 ```
 
-## 참고자료
+## 출처
 
 [I Re-Wrote These 10+ Single Lines of JavaScript Code, the Team Lead Praised the Code for Being Elegant](https://levelup.gitconnected.com/i-re-wrote-these-10-single-lines-of-javascript-code-the-team-lead-praised-the-code-for-being-668ade4fea71)

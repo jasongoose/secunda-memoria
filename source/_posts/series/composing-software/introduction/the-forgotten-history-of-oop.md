@@ -2,7 +2,7 @@
 title: The Forgotten History Of OOP
 date: 2024-10-29 22:14:30
 categories:
-  - Books
+  - Series
   - Composing Software
   - Introduction
 #tags:

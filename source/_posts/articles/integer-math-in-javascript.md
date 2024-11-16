@@ -31,6 +31,6 @@ a === 1; // true
 
 참고로 32bit 정수 간의 곱셈연산 결과값은 길이가 32비트를 넘을 수 있기 때문에 `Math.imul` 함수를 사용합니다.
 
-## 참고자료
+## 출처
 
 [Integer math in JavaScript](https://james.darpinian.com/blog/integer-math-in-javascript)

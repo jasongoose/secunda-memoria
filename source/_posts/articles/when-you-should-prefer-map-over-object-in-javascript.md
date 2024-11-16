@@ -79,6 +79,6 @@ Map은 Object와는 다르게 property descriptor(?) 관련 정보를 저장하�
 
 요소들의 추가/삭제에 의한 업데이트가 자주 일어난다면 Map이 훨씬 더 효율성이 높습니다.
 
-## 참고자료
+## 출처
 
 [When You Should Prefer Map Over Object In JavaScript](https://www.zhenghao.io/posts/object-vs-map)

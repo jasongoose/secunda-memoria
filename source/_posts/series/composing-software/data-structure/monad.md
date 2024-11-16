@@ -2,7 +2,7 @@
 title: Monad
 date: 2024-10-29 22:12:14
 categories:
-  - Books
+  - Series
   - Composing Software
   - Data Structure
 #tags:

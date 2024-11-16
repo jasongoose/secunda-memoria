@@ -53,6 +53,6 @@ function get<Path extends string>(path: Path, callback: CallbackFn<Path>) {
 
 String Literal Type + Conditional Type의 조합은 무궁무진합니다.
 
-## 참고자료
+## 출처
 
 [Extract parameter types from string literal types with TypeScript](https://lihautan.com/extract-parameters-type-from-string-literal-types-with-typescript/)
