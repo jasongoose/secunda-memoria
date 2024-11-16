@@ -2,7 +2,7 @@
 title: Functor, Category
 date: 2024-10-29 22:10:11
 categories:
-  - Books
+  - Series
   - Composing Software
   - Data Structure
 #tags:

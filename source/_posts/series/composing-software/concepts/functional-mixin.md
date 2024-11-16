@@ -2,7 +2,7 @@
 title: Functional Mixin
 date: 2024-10-28 08:43:09
 categories:
-  - Books
+  - Series
   - Composing Software
   - Concepts
 #tags:

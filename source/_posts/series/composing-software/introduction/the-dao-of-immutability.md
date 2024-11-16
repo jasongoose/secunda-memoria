@@ -2,7 +2,7 @@
 title: The Dao Of Immutability
 date: 2024-10-29 22:17:24
 categories:
-  - Books
+  - Series
   - Composing Software
   - Introduction
 #tags:

@@ -2,7 +2,7 @@
 title: Object Composition
 date: 2024-10-28 08:44:28
 categories:
-  - Books
+  - Series
   - Composing Software
   - Concepts
 #tags:

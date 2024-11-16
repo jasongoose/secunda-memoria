@@ -2,7 +2,7 @@
 title: Pure Function
 date: 2024-10-28 08:44:55
 categories:
-  - Books
+  - Series
   - Composing Software
   - Concepts
 #tags:

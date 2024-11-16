@@ -2,7 +2,7 @@
 title: Composable Data Types
 date: 2024-10-29 22:11:44
 categories:
-  - Books
+  - Series
   - Composing Software
   - Data Structure
 #tags:

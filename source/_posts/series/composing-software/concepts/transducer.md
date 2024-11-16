@@ -2,7 +2,7 @@
 title: Transducer
 date: 2024-10-28 08:45:18
 categories:
-  - Books
+  - Series
   - Composing Software
   - Concepts
 #tags:
