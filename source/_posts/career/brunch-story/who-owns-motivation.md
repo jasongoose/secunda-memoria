@@ -2,7 +2,7 @@
 title: 동기 부여는 회사가 책임져 주세요
 date: 2024-11-16 23:06:48
 categories:
-  - Careers
+  - Career
   - Brunch Story
 #tags:
 ---
@@ -135,4 +135,4 @@ categories:
 
 ## 출처
 
-https://brunch.co.kr/@goodgdg/22
+[동기 부여는 회사가 책임져 주세요](https://brunch.co.kr/@goodgdg/22)
