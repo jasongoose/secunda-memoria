@@ -1,6 +1,6 @@
 ---
 title: Removing Effect Dependencies
-date: 2024-11-04 08:15:52
+date: 2024-11-04 08:21:40
 categories:
   - Studies
   - React

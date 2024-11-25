@@ -1,6 +1,6 @@
 ---
 title: Queueing a Series of State Updates
-date: 2024-11-04 08:13:46
+date: 2024-11-04 08:13:17
 categories:
   - Studies
   - React

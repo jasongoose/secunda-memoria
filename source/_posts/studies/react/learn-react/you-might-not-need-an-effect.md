@@ -1,6 +1,6 @@
 ---
 title: You Might Not Need an Effect
-date: 2024-11-04 08:21:26
+date: 2024-11-04 08:21:02
 categories:
   - Studies
   - React

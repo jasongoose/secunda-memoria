@@ -1,6 +1,6 @@
 ---
 title: Render and Commit
-date: 2024-11-04 08:16:13
+date: 2024-11-04 08:11:56
 categories:
   - Studies
   - React

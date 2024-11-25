@@ -1,6 +1,6 @@
 ---
 title: Reacting to Input with State
-date: 2024-11-04 08:14:13
+date: 2024-11-04 08:15:06
 categories:
   - Studies
   - React

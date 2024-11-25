@@ -1,6 +1,6 @@
 ---
 title: Synchronizing w/ Effects
-date: 2024-11-04 08:20:12
+date: 2024-11-04 08:20:32
 categories:
   - Studies
   - React

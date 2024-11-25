@@ -1,6 +1,6 @@
 ---
 title: Extracting State Logic into a Reducer
-date: 2024-11-04 08:11:07
+date: 2024-11-04 08:18:01
 categories:
   - Studies
   - React

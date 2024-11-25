@@ -1,6 +1,6 @@
 ---
 title: Scaling Up with Reducer and Context
-date: 2024-11-04 08:18:01
+date: 2024-11-04 08:19:21
 categories:
   - Studies
   - React

@@ -1,6 +1,6 @@
 ---
 title: Referencing Values with Refs
-date: 2024-11-04 08:15:06
+date: 2024-11-04 08:19:53
 categories:
   - Studies
   - React

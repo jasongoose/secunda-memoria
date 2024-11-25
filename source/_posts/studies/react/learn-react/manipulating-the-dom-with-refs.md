@@ -1,6 +1,6 @@
 ---
 title: Manipulating the DOM w/ Refs
-date: 2024-11-04 08:12:20
+date: 2024-11-04 08:20:12
 categories:
   - Studies
   - React
