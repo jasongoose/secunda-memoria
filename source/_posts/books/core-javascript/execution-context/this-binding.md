@@ -1,6 +1,6 @@
 ---
 title: this binding
-date: 2024-11-01 00:41:55
+date: 2024-11-01 00:41:42
 categories:
   - Books
   - 코어 자바스크립트

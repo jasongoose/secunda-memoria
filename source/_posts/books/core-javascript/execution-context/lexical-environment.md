@@ -1,6 +1,6 @@
 ---
 title: Lexical Environment
-date: 2024-11-01 00:41:42
+date: 2024-11-01 00:39:53
 categories:
   - Books
   - 코어 자바스크립트
