@@ -13,7 +13,7 @@ DOM measurement(size, position 등의 정보)를 기반으로 HTML element에 �
 
 실무에서 viewport의 width에 맞춰서 nav 메뉴들의 일부만을 노출시키는 로직을 개발해야 하는 상황이라면 어떻게 구현할까요?
 
-![Collapsed](https://velog.velcdn.com/images/jasongoose/post/6457fc62-e389-4fee-b0b0-0e5f8e07fa3d/image.png)
+![Collapsed](/images/collapsed.png)
 
 우선 화면에 렌더링이 되고나서 nav 메뉴 container(`div.navigation`)의 width와 개별 nav 메뉴의 width 합을 계산해야 하므로 관련 로직을 `useEffect`에 정의할 수 있습니다.
 
@@ -91,7 +91,7 @@ const Component = ({ items }) => {
 
 다만 cpu 성능이 안 좋거나 네트워크가 원활하지 않은 환경에서는 아래와 같은 nav 메뉴들 전체가 순간적으로 나타나는 flickering 현상이 두드러지게 보이는 현상이 발목을 잡게 됩니다🤬
 
-![](https://velog.velcdn.com/images/jasongoose/post/2c250e93-12f2-4a43-aa19-7332cfdb6b5f/image.png)
+![Slow Network](/images/slow-network.png)
 
 ## Fixing it with useLayoutEffect
 
@@ -105,7 +105,7 @@ const Component = ({ items }) => {
 
 대신 아래 flip book과 같이 짧은 시간동안 여러 장의 이미지(=frame)들을 매우 빠르게 넘기면서 UI에 변화를 부여합니다.
 
-![Flip Book](https://velog.velcdn.com/images/jasongoose/post/04f7cfc3-b59f-4d9b-a475-c7d8e9eec0e5/image.gif)
+![Flip Book](/images/flip-book.gif)
 
 여기서 하나의 frame이 viewport에 그려지는 연산은 단일 task로서 queue에 대기했다가 브라우저에 의해서 동기적으로 처리됩니다.
 
@@ -121,9 +121,9 @@ React는 이와 같은 지연이 발생하지 않도록 거대한 task를 더 �
 
 `useEffect` hook으로 정의한 effect와 다르게 컴포넌트 렌더링과 동일한 task로 간주되기 때문에 만일 layout effect 내에서 컴포넌트 state를 업데이트한다면 즉시 리렌더링을 마친 뒤에 repaint가 수행됩니다.
 
-![useEffect](https://velog.velcdn.com/images/jasongoose/post/57e5f1e1-2492-41d3-9650-30e401d52d09/image.png)
+![useEffect](/images/use-effect.png)
 
-![useLayoutEffect](https://velog.velcdn.com/images/jasongoose/post/7c81f5b8-c474-404e-8d26-d021fe0041f2/image.png)
+![useLayoutEffect](/images/use-layout-effect.png)
 
 layout effect를 처리하는데 시간이 걸린다면 컴포넌트를 포함한 전체 페이지의 repaint가 지연되고 그동안 사용자는 빈 화면을 빈 화면을 몇 초간 응시할 수도 있습니다.😵
 
