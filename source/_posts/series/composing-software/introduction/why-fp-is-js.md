@@ -1,6 +1,6 @@
 ---
 title: Why FP In JS?
-date: 2024-10-29 22:18:21
+date: 2024-10-29 22:17:58
 categories:
   - Series
   - Composing Software

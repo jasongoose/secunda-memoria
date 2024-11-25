@@ -1,6 +1,6 @@
 ---
 title: What is FP?
-date: 2024-10-29 22:17:58
+date: 2024-10-29 22:17:24
 categories:
   - Series
   - Composing Software

@@ -1,6 +1,6 @@
 ---
 title: Functional Mixin
-date: 2024-10-28 08:43:09
+date: 2024-10-28 08:44:55
 categories:
   - Series
   - Composing Software
