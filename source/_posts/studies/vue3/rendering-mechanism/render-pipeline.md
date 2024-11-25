@@ -1,5 +1,5 @@
 ---
-title: 1. Render Pipeline
+title: Render Pipeline
 date: 2024-11-03 20:56:07
 categories:
   - Studies

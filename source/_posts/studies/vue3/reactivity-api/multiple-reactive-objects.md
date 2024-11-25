@@ -1,6 +1,6 @@
 ---
-title: 2. Multiple Reactive Objects
-date: 2024-11-03 20:54:40
+title: Multiple Reactive Objects
+date: 2024-11-03 20:54:14
 categories:
   - Studies
   - Vue3

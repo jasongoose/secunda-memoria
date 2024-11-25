@@ -1,6 +1,6 @@
 ---
-title: 2. Compiler-Informed Virtual DOM
-date: 2024-11-03 20:55:52
+title: Compiler-Informed Virtual DOM
+date: 2024-11-03 20:56:16
 categories:
   - Studies
   - Vue3

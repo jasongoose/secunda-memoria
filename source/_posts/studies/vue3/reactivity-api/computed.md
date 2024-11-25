@@ -1,6 +1,6 @@
 ---
-title: 6. computed
-date: 2024-11-03 20:53:57
+title: computed
+date: 2024-11-03 20:55:18
 categories:
   - Studies
   - Vue3

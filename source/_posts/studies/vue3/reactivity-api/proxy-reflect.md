@@ -1,6 +1,6 @@
 ---
-title: 3. Proxy, Reflect
-date: 2024-11-03 20:54:54
+title: Proxy, Reflect
+date: 2024-11-03 20:54:40
 categories:
   - Studies
   - Vue3

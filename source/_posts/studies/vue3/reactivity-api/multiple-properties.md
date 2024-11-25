@@ -1,6 +1,6 @@
 ---
-title: 1. Multiple Properties
-date: 2024-11-03 20:54:14
+title: Multiple Properties
+date: 2024-11-03 20:53:57
 categories:
   - Studies
   - Vue3
