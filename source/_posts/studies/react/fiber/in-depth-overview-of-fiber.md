@@ -129,7 +129,7 @@ fiber가 수행하는 work들은 [`ChildReconciler` 함수](https://github.com/f
 
 fiber들은 react-el의 관계에 맞춰서 `child`, `sibling`, `return` 속성으로 참조하는 방식으로 연결되어 있습니다.
 
-![Fiber Linked List](https://velog.velcdn.com/images/jasongoose/post/d24ba0a2-93e8-471e-8a2b-4cf5929133be/image.png)
+![Fiber Linked List](/images/fiber-linked-list.png)
 
 ### Current and work in progress trees
 
@@ -139,7 +139,7 @@ fiber들은 react-el의 관계에 맞춰서 `child`, `sibling`, `return` 속성�
 
 React는 리렌더링이 일어나면 current tree의 root에서 내려오면서 `render` 메서드로 반환된 react-el의 정보를 담은 workInProgress node(=fiber)를 생성하고 여기에 정의된 work를 처리합니다.
 
-![VDOM](https://velog.velcdn.com/images/jasongoose/post/9f5dc48a-691e-4df0-9bdb-72b9dde0050e/image.png)
+![VDOM](/images/virtual-dom.png)
 
 workInProgess tree에서 모든 work들이 처리되면 해당 tree가 current tree가 되고 commit phase로 넘어가서 화면에 그려집니다(=flush).
 
@@ -165,9 +165,9 @@ React는 effect가 있는 fiber들을 linked list로 연결하여 iterate하는 
 
 effects list를 구성하는 fiber는 `nextEffect` 속성으로 다음에 처리할 fiber를 참조하고 hostRoot의 `firstEffect`는 처음으로 처리할 effect를 가진 fiber를 참조합니다.
 
-![Effect List](https://velog.velcdn.com/images/jasongoose/post/e632b740-2522-4d24-aced-b20f59ec0eae/image.png)
+![Effect List](/images/effect-list.png)
 
-![Effect List Linear](https://velog.velcdn.com/images/jasongoose/post/ae43ca9a-9df0-4740-87bd-4b7157e0126d/image.png)
+![Effect List Linear](/images/effect-list-linear.png)
 
 ### Root of the fiber tree
 
@@ -321,7 +321,7 @@ function workLoop(isYieldy) {
 
 work loop 내에서 work를 처리하는 4개의 주요 함수가 있는데 동작방식은 아래 이미지로 확인할 수 있습니다.
 
-![Work Loop](https://velog.velcdn.com/images/jasongoose/post/f14e74b7-0de6-4ef1-8d4e-bb27c834ec62/image.gif)
+![Work Loop](/images/work-loop.gif)
 
 `performUnitOfWork` 함수는 `beginWork` 함수가 지정한 workInProgress node의 work를 처리하는데 여기서 `beginWork` 함수는 현재 위치한 node의 child node를 반환합니다.
 
