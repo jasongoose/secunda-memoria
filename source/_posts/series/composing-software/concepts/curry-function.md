@@ -1,6 +1,6 @@
 ---
 title: Curry Function
-date: 2024-10-28 08:41:48
+date: 2024-10-28 08:42:28
 categories:
   - Series
   - Composing Software

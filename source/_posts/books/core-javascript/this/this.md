@@ -1,6 +1,6 @@
 ---
 title: this
-date: 2024-11-01 00:37:26
+date: 2024-11-01 00:41:55
 categories:
   - Books
   - 코어 자바스크립트

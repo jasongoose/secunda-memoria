@@ -1,6 +1,6 @@
 ---
 title: The Dao Of Immutability
-date: 2024-10-29 22:17:24
+date: 2024-10-29 22:16:37
 categories:
   - Series
   - Composing Software

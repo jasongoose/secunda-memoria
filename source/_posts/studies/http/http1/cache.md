@@ -1,6 +1,6 @@
 ---
 title: Cache
-date: 2024-11-03 13:56:01
+date: 2024-11-03 13:56:15
 categories:
   - Studies
   - HTTP

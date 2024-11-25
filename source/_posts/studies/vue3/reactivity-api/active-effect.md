@@ -1,6 +1,6 @@
 ---
-title: 4. activeEffect
-date: 2024-11-03 20:53:49
+title: activeEffect
+date: 2024-11-03 20:54:54
 categories:
   - Studies
   - Vue3

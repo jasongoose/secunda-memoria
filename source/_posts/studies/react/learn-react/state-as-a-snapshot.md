@@ -1,6 +1,6 @@
 ---
 title: State as a Snapshot
-date: 2024-11-04 08:19:53
+date: 2024-11-04 08:12:51
 categories:
   - Studies
   - React

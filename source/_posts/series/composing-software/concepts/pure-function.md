@@ -1,6 +1,6 @@
 ---
 title: Pure Function
-date: 2024-10-28 08:44:55
+date: 2024-10-28 08:41:01
 categories:
   - Series
   - Composing Software

@@ -1,6 +1,6 @@
 ---
 title: Composable Data Types
-date: 2024-10-29 22:11:44
+date: 2024-10-29 22:12:14
 categories:
   - Series
   - Composing Software

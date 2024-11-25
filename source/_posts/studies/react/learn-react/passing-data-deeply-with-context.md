@@ -1,6 +1,6 @@
 ---
 title: Passing Data Deeply w/ Context
-date: 2024-11-04 08:12:51
+date: 2024-11-04 08:18:57
 categories:
   - Studies
   - React

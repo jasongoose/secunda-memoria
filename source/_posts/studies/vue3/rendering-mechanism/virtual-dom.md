@@ -1,6 +1,6 @@
 ---
-title: 0. Virtual DOM
-date: 2024-11-03 20:56:16
+title: Virtual DOM
+date: 2024-11-03 20:55:52
 categories:
   - Studies
   - Vue3

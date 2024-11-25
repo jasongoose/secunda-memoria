@@ -1,6 +1,6 @@
 ---
 title: Connection Management
-date: 2024-11-03 13:56:15
+date: 2024-11-03 14:00:14
 categories:
   - Studies
   - HTTP

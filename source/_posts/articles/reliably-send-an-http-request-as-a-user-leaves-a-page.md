@@ -11,8 +11,6 @@ categories:
 - 다른 `<form></form>`을 submit할 때
 - 브라우저 창이나 탭을 닫을 때
 
----
-
 아래와 같은 상황이 있다고 합시다.
 
 ```html
@@ -38,8 +36,6 @@ categories:
 페이지가 terminated 상태에서 시작한 fetch와 `XmlHttpRequest`는 **asynchronous, non-blocking(main thread를 붙잡지 않는)** 연산이기 때문에 브라우저 Web API에 의해서 적절한 시점에 Task Queue에 push되고 call stack이 빌 때마다 실행됩니다.
 
 하지만 page가 terminated 상태가 된다면 브라우저에 의해 메모리가 clear되면서 in-process task들은 중간에 중지될 수 있기 때문에 위 상황에서 다른 페이지로 이동했을 때, POST request가 cancel됩니다.
-
----
 
 그렇다면 현재 페이지 내 `terminated` 상태에서 진행하고 있던 HTTP request를 중지하지 않고 그대로 유지하려면 어떻게 해야 할까요?
 

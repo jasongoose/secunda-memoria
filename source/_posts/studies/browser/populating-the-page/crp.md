@@ -1,6 +1,6 @@
 ---
 title: Critical Rendering Path
-date: 2024-11-02 00:05:46
+date: 2024-11-02 00:06:14
 categories:
   - Studies
   - Browser

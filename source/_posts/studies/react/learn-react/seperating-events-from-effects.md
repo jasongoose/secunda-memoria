@@ -1,6 +1,6 @@
 ---
 title: Seperating Events from Effects
-date: 2024-11-04 08:18:32
+date: 2024-11-04 08:21:30
 categories:
   - Studies
   - React

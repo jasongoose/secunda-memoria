@@ -1,6 +1,6 @@
 ---
 title: Reflow, Repaint
-date: 2024-11-02 00:06:14
+date: 2024-11-02 00:06:23
 categories:
   - Studies
   - Browser

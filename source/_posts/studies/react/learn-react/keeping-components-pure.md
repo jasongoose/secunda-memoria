@@ -1,6 +1,6 @@
 ---
 title: Keeping Components Pure
-date: 2024-11-04 08:11:31
+date: 2024-11-04 07:58:43
 categories:
   - Studies
   - React

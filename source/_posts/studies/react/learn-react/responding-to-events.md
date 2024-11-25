@@ -1,6 +1,6 @@
 ---
 title: Responding to Events
-date: 2024-11-04 08:16:30
+date: 2024-11-04 08:11:07
 categories:
   - Studies
   - React

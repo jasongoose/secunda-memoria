@@ -1,6 +1,6 @@
 ---
 title: Monad
-date: 2024-10-29 22:12:14
+date: 2024-10-29 22:11:44
 categories:
   - Series
   - Composing Software
@@ -27,7 +27,7 @@ Functor 매핑으로 추가된 가장 외부의 Monad Context 하나를 제거�
 
 여기서 Context란 Functor, Monad의 mapping 중 수행되는 연산들을 추상화하는(독립된 단위라서 사용자로부터 내부 구현을 은닉해도 되는) wrapper입니다.
 
-Array에 대해 `map`을 수행하면 iteration 일어나고, Promise에 대해 `then`을 수행하면 resolve될 때까지 대기하는 등의 내부연산들이 Context로서 수행됩니다.
+Array에 대해 `map`을 수행하면 iteration 일어나고, Promise에 대해 `then`을 수행하면 resoㅓㅓlve될 때까지 대기하는 등의 내부연산들이 Context로서 수행됩니다.
 
 Monad의 flatMap 연산은 아래와 같은 수식(?)으로 표현할 수 있습니다.
 

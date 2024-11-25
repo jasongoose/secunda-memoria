@@ -1,6 +1,6 @@
 ---
 title: Class Field Delimeter
-date: 2024-11-01 00:43:24
+date: 2024-11-01 00:45:49
 categories:
   - Books
   - 코어 자바스크립트

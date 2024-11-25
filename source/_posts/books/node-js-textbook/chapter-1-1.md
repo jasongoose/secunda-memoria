@@ -1,5 +1,5 @@
 ---
-title: chapter-1-1. 핵심 개념 이해하기
+title: 1-1장. 핵심 개념 이해하기
 date: 2024-10-29 23:52:49
 categories:
   - Books

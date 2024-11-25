@@ -1,6 +1,6 @@
 ---
 title: Abstraction, Composition
-date: 2024-10-28 08:41:01
+date: 2024-10-28 08:43:09
 categories:
   - Series
   - Composing Software

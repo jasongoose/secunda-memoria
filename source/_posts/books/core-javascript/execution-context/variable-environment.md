@@ -1,6 +1,6 @@
 ---
-title: variable environment
-date: 2024-11-01 00:42:13
+title: Variable Environment
+date: 2024-11-01 00:40:10
 categories:
   - Books
   - 코어 자바스크립트

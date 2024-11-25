@@ -1,5 +1,5 @@
 ---
-title: 5. ref
+title: ref
 date: 2024-11-03 20:55:01
 categories:
   - Studies
