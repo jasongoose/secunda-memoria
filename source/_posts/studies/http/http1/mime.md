@@ -1,6 +1,6 @@
 ---
 title: MIME
-date: 2024-11-03 14:00:14
+date: 2024-11-03 14:00:06
 categories:
   - Studies
   - HTTP
