@@ -228,7 +228,7 @@ const Form = () => {
 
 조건에 따라 렌더링되는 item의 개수, 종류, 순서 등이 달라지는 dynamic array에서 `key`의 역할은 중요하기 때문에 필수로 지정되어야만 합니다.
 
-만일 아래와 같은 리스트 렌더링에서 index가 `key`로 동작한다면 [리렌더링 전후로 구성하는 react-el의 index는 그대로 동일하기 때문에 개별 react-el이 달라진 state를 반영하지 않는 결과가 나올 수도 있습니다.](https://velog.io/@jasongoose/React-key-attribute-best-practices-for-performant-lists)
+만일 아래와 같은 리스트 렌더링에서 index가 `key`로 동작한다면 리렌더링 전후로 구성하는 react-el의 index는 그대로 동일하기 때문에 개별 react-el이 달라진 state를 반영하지 않는 결과가 나올 수도 있습니다.
 
 ```jsx
 // as-is

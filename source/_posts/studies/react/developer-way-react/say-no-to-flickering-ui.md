@@ -89,7 +89,7 @@ const Component = ({ items }) => {
 }
 ```
 
-다만 cpu 성능이 안 좋거나 네트워크가 원활하지 않은 환경에서는 아래와 같은 nav 메뉴들 전체가 순간적으로 나타나는 flickering 현상이 두드러지게 보이는 현상이 발목을 잡게 됩니다🤬
+다만 CPU 성능이 안 좋거나 네트워크가 원활하지 않은 환경에서는 아래와 같은 nav 메뉴들 전체가 순간적으로 나타나는 flickering 현상이 두드러지게 보이는 현상이 발목을 잡게 됩니다🤬
 
 ![Slow Network](/images/slow-network.png)
 

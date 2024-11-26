@@ -37,7 +37,7 @@ MOVE register 5, mem(160); ---- (4)
 
 여기서 `LOAD`, `ADD`, `MOVE`와 같은 연산은 아래 이미지와 같이 CU의 지시에 의해서 시작됩니다.
 
-![cpu의 명령어 처리 과정](/images/cpu_architecture.png)
+![CPU의 명령어 처리 과정](/images/cpu_architecture.png)
 
 ### 레지스터의 종류
 
