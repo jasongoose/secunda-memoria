@@ -71,7 +71,7 @@ v = f(d);
 
 `requestIdleCallback`은 animation frame의 렌더링 시점들 사이의 여유가 있는 기간에 실행할 우선순위가 낮은 함수를 지정할 수 있고 `requestAnimationFrame`은 다음 animation frame 렌더링 시점에 실행할 우선순위가 높은 함수를 지정할 수 있습니다.
 
-![Frame Lifecycle](https://velog.velcdn.com/images/jasongoose/post/516d98b5-aa89-423e-9795-aa0987d6e49d/image.jpeg)
+![Frame Lifecycle](/images/frame_cycle.jpeg)
 
 React의 scheduling 구현에 위 api들을 활용하려면 UI 렌더링 작업을 더 작은 단위로 나눠야하고 call stack에서 우선순위에 따라 call stack frame을 interrupt할 수 있도록 제어할 필요가 있습니다.
 
