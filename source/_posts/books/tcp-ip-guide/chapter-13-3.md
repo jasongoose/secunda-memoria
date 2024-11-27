@@ -4,7 +4,6 @@ date: 2024-10-31 23:33:49
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 13
 #tags:
 ---
 ### 정적 캐싱

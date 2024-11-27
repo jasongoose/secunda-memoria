@@ -4,7 +4,6 @@ date: 2024-10-31 23:32:08
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 6
 #tags:
 ---
 여러 유무선 LAN 기술의 주요 기능이 위치하는 계층으로, 2개의 하위 계층으로 구성됩니다.

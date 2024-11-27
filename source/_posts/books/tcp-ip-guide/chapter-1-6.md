@@ -4,7 +4,6 @@ date: 2024-10-31 23:30:58
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 1
 #tags:
 ---
 네트워크는 연결된 장비들의 상대적인 규모를 기준으로 구분할 수 있습니다.

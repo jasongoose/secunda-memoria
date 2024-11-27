@@ -4,7 +4,6 @@ date: 2024-10-31 23:30:33
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 1
 #tags:
 ---
 ## 네트워킹 계층, 모델, 구조

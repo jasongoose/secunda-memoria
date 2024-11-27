@@ -4,7 +4,6 @@ date: 2024-10-31 23:31:13
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 2
 #tags:
 ---
 ### 설계와 구현 비용
