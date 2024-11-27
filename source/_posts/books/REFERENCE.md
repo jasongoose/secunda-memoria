@@ -34,3 +34,7 @@ categories:
 ## 프레임워크 없는 프론트엔드
 
 [프레임워크 없는 프론트엔드](https://product.kyobobook.co.kr/detail/S000001804992)
+
+## 세상에서 가장 쉬운 하고 싶은 일 찾는 법
+
+[세상에서 가장 쉬운 하고 싶은 일 찾는 법](https://product.kyobobook.co.kr/detail/S000001717571)
