@@ -4,7 +4,6 @@ date: 2024-10-29 23:53:18
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 2
 #tags:
 ---
 ## Promise

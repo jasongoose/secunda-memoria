@@ -4,7 +4,6 @@ date: 2024-10-31 22:31:02
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 5
 #tags:
 ---
 `npm install`로 패키지를 설치하는 중에 WARN 메시지가 나올 수도 있는데 "ERROR"만이 진짜 에러이고 "WARN"은 단순한 경고일 뿐입니다.

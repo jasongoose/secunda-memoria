@@ -4,7 +4,6 @@ date: 2024-10-31 22:31:08
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 5
 #tags:
 ---
 ### npm update [패키지명]

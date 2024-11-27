@@ -4,7 +4,6 @@ date: 2024-10-31 22:30:42
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 4
 #tags:
 ---
 기본적으로 싱글 프로세스로 동작하는 Node.js가 CPU 코어를 모두 사용할 수 있게 해주는 모듈입니다.

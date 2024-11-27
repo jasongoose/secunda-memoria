@@ -4,7 +4,6 @@ date: 2024-10-31 22:31:05
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 5
 #tags:
 ---
 SemVer는 Sementic Versioning의 약어로, 버전을 구성하는 세자리가 모두 의미를 갖고 있다는 의미입니다.

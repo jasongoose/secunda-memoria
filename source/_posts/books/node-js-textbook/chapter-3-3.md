@@ -4,7 +4,6 @@ date: 2024-10-29 23:54:03
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 3
 #tags:
 ---
 Node.js는 코드를 모듈로 만들 수 있다는 점에서 브라우저의 자바스크립트와는 다릅니다.
