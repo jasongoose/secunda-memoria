@@ -4,7 +4,6 @@ date: 2024-10-29 23:54:39
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 3
 #tags:
 ---
 이벤트를 만들고 호출하고 삭제할 때는 `events` 모듈을 사용할 수 있습니다.

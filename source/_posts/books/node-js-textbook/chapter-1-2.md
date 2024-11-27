@@ -4,7 +4,6 @@ date: 2024-10-29 23:53:02
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 1
 #tags:
 ---
 Node.js는 [libuv](https://github.com/libuv/libuv) 라이브러리로 IO 작업을 논블로킹 방식으로 처리합니다.

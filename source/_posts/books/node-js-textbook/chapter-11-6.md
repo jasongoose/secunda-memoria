@@ -4,7 +4,6 @@ date: 2024-10-31 22:32:10
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 11
 #tags:
 ---
 npm을 통해 설치한 패키지나 다른 사람의 라이브러리 자체는 테스트하지 않습니다.

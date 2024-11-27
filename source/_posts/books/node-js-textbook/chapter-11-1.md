@@ -4,7 +4,6 @@ date: 2024-10-31 22:31:44
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 11
 #tags:
 ---
 개발자나 QA들은 자신이 만든 서비스가 제대로 동작하는지 테스트 해봅니다.

@@ -4,7 +4,6 @@ date: 2024-10-31 22:32:25
 categories:
   - Books
   - Node.js 교과서(개정 3판)
-  - Chapter 12
 #tags:
 ---
 ![Web Socket](/images/ws.png)

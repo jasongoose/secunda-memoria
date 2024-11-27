@@ -4,7 +4,6 @@ date: 2024-10-31 23:33:43
 categories:
   - Books
   - TCP/IP 완벽 가이드
-  - Chapter 13
 #tags:
 ---
 3계층 프로토콜 IP와 이더넷을 비롯한 2계층 프로토콜간의 동적 주소 결정을 위해서 개발된 ARP(Address Resolution Protocol)입니다.
