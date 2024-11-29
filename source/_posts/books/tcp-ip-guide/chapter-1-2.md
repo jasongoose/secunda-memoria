@@ -1,5 +1,5 @@
 ---
-title: 1-1장. 기본 네트워크 특성
+title: 1-2장. 기본 네트워크 특성
 date: 2024-10-31 23:30:33
 categories:
   - Books
